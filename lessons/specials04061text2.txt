@@ -1,0 +1,21 @@
+Types of brackets include parentheses () (the singular is parenthesis), square brackets or box brackets [], braces or curly brackets {}, and angle brackets or chevrons (which we've not yet learned!). 
+
+The path is: C:\root\documents\secrets\diary.txt. That's complicated! 
+
+It's challenging to type sentences with * and # and ^ (numbers are much easier!). 
+
+Let's type emoticons! 
+:-) smile 
+:-( frown 
+;-) wink 
+*\o/* cheerleader 
+
+An emoticon (sometimes called a smiley or a graemlin), is a sequence of printable characters such as :), ^-^, or : -) or a small image that is intended to represent a human facial expression and convey an emotion. 
+
+The ^ symbol means exponent (to the power of). So, for example, 5^2 means 5*5 (=25) and 3.2^2 means 3.2*3.2 (=10.24). 
+
++ means plus, - means minus, / means divide, * means multiply. In most cases, you don't need to type the *. 
+
+In mathematics braces are used to delimit sets. For example: E = {1, 2, 3, ..., 1000} or D = {red, white, blue} 
+
+Problem #3: 8^2-1+(56-3)/241 

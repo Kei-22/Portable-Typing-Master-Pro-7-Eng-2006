@@ -1,0 +1,55 @@
+If n = 5 then n! = 5*4*3*2*1 
+
+The asterisk * is not the same as Asterix. 
+
+Great! Wonderful! Fabulous! Fantastic! Splendid! 
+
+(3x^2+4x-2) + (-7x^2- 10x+17) 
+
+The backslash \ is used as a path separator (for example, c:\program files\typing). 
+
+# is the number sign (also called pound / hash sign, crosshatch & octothorpe). 
+
+The symbol ^ is called the caret/hat/control/uparrow. 
+
+2*3=6 and 2^3=8. 
+
+We count with natural numbers: {1, 2, 3, 4, 5, ... }. 
+
+Enter the number you wish to dial and then press #. 
+
+"That's absolutely wonderful!" George exclaimed. 
+
+The set of all integers = {. . . -3, -2, -1, 0, 1, 2, 3, . . .}. 
+
+In the US, the asterisk * is informally called a "bug". 
+
+How much is (3*4)^2? Does it equal 12*12? Yes! 
+
+Cartoonists sometimes use symbols such as " # ^ @ & # " to represent swearing. 
+
+Where the backslash \ is used in UNIX the foreslash / is used in Windows. 
+
+'Hooray! Hooray! Hooray!' the audience shouted. 
+
+Some people call # a "gate" and some call it a "criss- cross". 
+
+You can use * to mark a footnote; e.g. "...special symbols are often informally called dingbats*." 
+
+File names cannot include ! or \ or symbols like &, $ and %. 
+
+Stop that! Stop it! Can't you hear what I'm saying? 
+
+To simulate pressing Ctrl+C, write ^C. 
+
+The elements of a set are specified by the symbols inside the brackets: {a, b, c ... n}. 
+
+You can use a line of symbols like ### or *** to divide text and break up a page. 
+
+Emphasis is not only given with the ! but can be indicated by underlining and bold print! 
+
+Isn't he clever? Wouldn't you sing? Don't do that! 
+
+A useful way to indicate permutations of n objects is n! 
+
+Alas! All music offends when the soul is out of tune. 

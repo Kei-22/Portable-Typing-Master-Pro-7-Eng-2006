@@ -1,0 +1,110 @@
+$version=6
+
+' General Gwerty layout
+
+' defaultsize for buttons having minus as width and height
+layoutcode;00000410
+MaterialBased;qwerty
+HomeRow;asdfjklò
+DefaultSize;32;34
+FontSize;18;14;14
+
+' parameters for Key; finger;x;y;width;height; style; keycaption; keycaption.. max 10 items)
+'
+' x and y can be 0 which means previous one, or +n which adds n pixels to previous value
+'
+' width and heigth can be 0 previous one, or minus and defaultsize is used
+'
+' style can contain following keys - normal value is empty
+'   n= nipple
+'   i= invisible
+'   d= dark
+
+'1. Rivi
+Key;1;1;1;-;-;-;\;|
+Key;1;+1;0;-;-;-;1;!
+Key;2;+1;0;-;-;-;2;"
+Key;3;+1;0;-;-;-;3;£
+Key;4;+1;0;-;-;-;4;$
+Key;4;+1;0;-;-;-;5;%
+Key;5;+1;0;-;-;-;6;&
+Key;5;+1;0;-;-;-;7;/
+Key;6;+1;0;-;-;-;8;(
+Key;7;+1;0;-;-;-;9;)
+Key;8;+1;0;-;-;-;0;=
+Key;8;+1;0;-;-;-;';?
+Key;8;+1;0;-;-;-;ì;^
+BackSpaceKey;8;+1;0;66;0;DAS;
+
+'2. Rivi
+TabKey;1;1;+1;48;-;DS;;
+Key;1;+1;0;-;-;-;q;Q
+Key;2;+1;0;-;-;-;w;W
+Key;3;+1;0;-;-;-;e;E
+Key;4;+1;0;-;-;-;r;R
+Key;4;+1;0;-;-;-;t;T
+Key;5;+1;0;-;-;-;y;Y
+Key;5;+1;0;-;-;-;u;U
+Key;6;+1;0;-;-;-;i;I
+Key;7;+1;0;-;-;-;o;O
+Key;8;+1;0;-;-;-;p;P
+Key;8;+1;0;-;-;-;è;é
+Key;8;+1;0;-;-;-;+;*
+EnterKey;8;+10;0;40;70;DAS;
+'Key;8;+1;0;50;0;-;\;|
+
+'3. Rivi
+CapsLockKey;1;1;72;57;-;SD;Caps;
+Key;1;+1;0;-;-;-;a;A
+Key;2;+1;0;-;-;-;s;S
+Key;3;+1;0;-;-;-;d;D
+Key;4;+1;0;-;-;-;f;F
+Key;4;+1;0;-;-;-;g;G
+Key;5;+1;0;-;-;-;h;H
+Key;5;+1;0;-;-;-;j;J
+Key;6;+1;0;-;-;-;k;K
+Key;7;+1;0;-;-;-;l;L
+Key;8;+1;0;-;-;-;ò;ç; ; ;@
+Key;8;+1;0;-;-;-;à;°; ; ;#
+Key;8;+1;0;-;-;-;ù;§
+
+
+'4. Rivi
+ControlKey;1;1;+1;48;-;DAS;1;Shift
+Key;1;+1;0;-;-;-;<;>
+Key;1;+1;0;-;-;-;z;Z
+Key;2;+1;0;-;-;-;x;X
+Key;3;+1;0;-;-;-;c;C
+Key;4;+1;0;-;-;-;v;V
+Key;4;+1;0;-;-;-;b;B
+Key;5;+1;0;-;-;-;n;N
+Key;5;+1;0;-;-;-;m;M
+Key;6;+1;0;-;-;-;,;%;
+Key;7;+1;0;-;-;-;.;:
+Key;8;+1;0;-;-;-;-;_
+ControlKey;8;+1;0;82;-;DAS;1;Shift
+
+'5. Rivi
+ControlKey;1;1;+1;48;-;DS;2;Ctrl
+ControlKey;9;+36;0;48;-;SD;3;Alt
+SpaceKey;9;+1;0;229;-;AS;
+ControlKey;9;+1;0;48;-;DS;4;Alt Gr
+ControlKey;8;+36;0;48;-;DS;2;Ctrl
+
+' parameters for Control;x;y;width;height;style; index; caption
+'
+'
+' x and y can be 0 which means previous one, or +n which adds n pixels to previous value
+'
+' width and heigth can be 0 previous one, or minus and defaultsize is used
+'
+' style can contain following keys - normal value is empty
+'   n= nipple
+'   i= invisible
+'   d= dark
+'
+' index is the pointer to Keycaptions of keys, allows e.g. SHIFT functionality
+
+'Control;1;100;100;50;75;S;1;Shift
+'Control;1;100;150;50;75;S;2;Alt
+

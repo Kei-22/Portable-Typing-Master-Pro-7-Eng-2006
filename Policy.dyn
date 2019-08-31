@@ -1,0 +1,17 @@
+secondarycourse=uk7speed.cnt
+SatelliteWizard=satellite
+DefaultWizard=uk7qwert
+DefaultContents=uk7qwert.cnt
+PreventNewUsers=0
+Setup.TargetDirectory=c:\typingmaster
+ErrorFactor=5
+KeyboardLayout=*101-Keyboard (US)
+KeyboardAutoDetect=1
+cpm=0
+ThemeSound=1
+Sounds=1
+languagecode=ENG
+DisablePrintReport=0
+languagecode.locked=0
+userpicksgroup=1
+RequirePasswords=0

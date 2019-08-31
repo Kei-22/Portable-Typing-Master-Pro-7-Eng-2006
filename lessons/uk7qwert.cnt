@@ -1,0 +1,714 @@
+$description=Touch Typing Course
+$longdesc=In this course, you will learn the positions of the letter keys and common punctuation by heart. After completing the course you will be able to type with all ten fingers without looking at the keyboard.
+$version=7.0
+$language=eng
+$chapters=12
+$durationlist=15,20,25
+$copyright=TypingMaster inc 2005, all rights reserved.
+'Created by TMEditor v2.0 @ 7.4.2006 10:37
+
+newkeysloops=0
+wordloop=0
+wordmaxloop=0
+goalinfo=auttaako tama
+durationsystem=static
+defaultduration=0
+lessondurations=15,20,25
+accuracygoals=90,94,98
+eventdurationmargin=0
+dynamicdurationmargin=2
+
+contents name=Touch Typing Course
+alternatekeyboards=1
+keyboard=us.kbd
+wizardname=UK7QWERT
+simplewizard=1
+last free=2
+
+begin chapter
+ chapter name=1;The Home Row
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys_azerty=SEMICOLON
+ new keys_azerty=qasdfjkl
+ new keys_dvorak=aoeuhtns
+ new keys_qwerty=SEMICOLON
+ new keys_qwerty=asdfjkl
+ new keys_qwertz=SEMICOLON
+ new keys_qwertz=asdfjkl
+ begin exercise
+   type=Touch typing basics
+   duration=3
+    EVENT=HTMLMESSAGE;3;msg_eng_uk7qwert_1_1_1.htm;What Is Touch Typing?;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_1_2.htm;Finger Positions;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_1_3.htm;Pressing Keys;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_1_4.htm;Learning Tips;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_1_5.htm;Ready to Start;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=New keys: Home row 
+   duration=3
+    EVENT_09=KEYINTRO;0;file:uk7qwert01021keyintro7141.txt;asdfjkl%3B;SHOW;0;0;0;0;0;0;0;0
+    EVENT_09=KEYINTRO;0;file:uk7qwert01021keyintro.txt;asdf;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT_09=KEYINTRO;0;file:uk7qwert01023keyintro.txt;jkl%3B;SHOW;left;0;0;0;0;0;0;0;0
+    EVENT_09=KEYINTRO;0;file:uk7qwert01024keyintro.txt;%20;SHOW;0;0;0;0;0;0;0;0
+    EVENT_09=KEYINTRO;0;file:uk7qwert01025keyintro3433.txt;asdfjkl%3B;SHOW;0;0;0;0;0;0;0;0
+    EVENT_09=KEYINTRO;0;file:uk7qwert01022keyintro4155.txt;asdfjkl%3B;PRESS;0;0;0;0;0;0;0;0;0
+    EVENT_09=KEYINTRO;0;file:uk7qwert01028keyintro.txt;%20;SHOW;0;0;0;0;0;0;0;0
+    EVENT_09=KEYINTRO;0;file:uk7qwert01029keyintro.txt;%20;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert01013key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert01027key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert01028key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert01026key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Understanding results
+   duration=3
+    EVENT=HTMLMESSAGE;3;msg_eng_uk7qwert_1_2_1.htm;Typing results;0;left;0;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_2_3.htm;Typing speed;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_2_4.htm;Gross and net speed;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_2_2.htm;Accuracy percentage;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_2_5.htm;Difficult Keys;0;left;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Key drill
+   duration=3
+    EVENT_QWERTY=KEY2;3;file:uk7qwert01031key2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+    EVENT_DVORAK=KEY2;3;file:uk7qwert01042key2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert01043key2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+    EVENT_AZERTY=KEY2;3;file:uk7qwert01044key2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+ end exercise
+
+ begin exercise
+   type=Tip: Typing tests
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_6_1.htm;Take a pre-test!;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT_QWERTY=WORD2;3;file:uk7qwert01031word2.txt;0;0;0;0;0;0;0;40;75;175;125;3
+    EVENT_AZERTY=WORD2;3;file:uk7qwert01031word2.txt;0;0;0;0;0;0;0;40;75;175;125;3
+    EVENT_QWERTZ=WORD2;3;file:uk7qwert01031word2.txt;0;0;0;0;0;0;0;40;75;175;125;3
+    EVENT_DVORAK=WORD2;3;file:uk7qwert01053word2dv.txt;0;0;0;0;0;0;0;40;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_7_1.htm;Backspace and Enter;0;left;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=PARAGRAPH2;3;file:uk7qwert01052text2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+    EVENT_QWERTZ=PARAGRAPH2;3;file:uk7qwert01052text2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+    EVENT_AZERTY=PARAGRAPH2;3;file:uk7qwert01052text2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+    EVENT_DVORAK=PARAGRAPH2;3;file:uk7qwert01052text2dv.txt;0;0;0;0;0;0;0;40;75;175;125;4
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys E and I
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys_azerty=ei
+ new keys_dvorak=idfjkl
+ new keys_qwerty=ei
+ new keys_qwertz=ei
+ begin exercise
+   type=New keys: E and I
+   duration=3
+    EVENT_QWERTY=HTMLMESSAGE;0;msg_eng_uk7qwert_2_1_1.htm;Extension row;0;left;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTZ=HTMLMESSAGE;0;msg_eng_uk7qwert_2_1_1.htm;Extension row;0;left;0;0;0;0;0;0;0;0;0
+    EVENT_AZERTY=HTMLMESSAGE;0;msg_eng_uk7qwert_2_1_1.htm;Extension row;0;left;0;0;0;0;0;0;0;0;0
+    EVENT_DVORAK=HTMLMESSAGE;0;msg_eng_uk7qwert_2_1_1dv.htm;Note for Dvorak users;0;left;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEYINTRO;0;file:uk7qwert02012keyintro.txt;ei;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEYINTRO;0;file:uk7qwert02013keyintro.txt;ei;PRESS;0;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEYINTRO;0;file:uk7qwert02017keyintro.txt;ei;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTZ=KEYINTRO;0;file:uk7qwert02012keyintro.txt;ei;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTZ=KEYINTRO;0;file:uk7qwert02013keyintro.txt;ei;PRESS;0;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTZ=KEYINTRO;0;file:uk7qwert02017keyintro.txt;ei;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT_AZERTY=KEYINTRO;0;file:uk7qwert02012keyintro.txt;ei;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT_AZERTY=KEYINTRO;0;file:uk7qwert02013keyintro.txt;ei;PRESS;0;0;0;0;0;0;0;0;0;0
+    EVENT_AZERTY=KEYINTRO;0;file:uk7qwert02017keyintro.txt;ei;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert02012key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert02012key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert02012key2az.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert02012key2dv.txt;0;0;0;0;0;0;0;40;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Optimized duration
+   duration=3
+    EVENT=HTMLMESSAGE;3;msg_eng_uk7qwert_2_2_1.htm;What is Optimized Duration?;0;left;0;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_2_2_2.htm;Monitoring Your Progress;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_2_2_3.htm;Turning Off Optimized Duration;0;left;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert02021word2.txt;0;0;0;0;0;0;0;40;75;175;125;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert02041sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Tip: Try the Satellite
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_2_3_1.htm;Trying Out the Satellite;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert02051paragraph2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys R and U
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=ru
+ begin exercise
+   type=New keys: R U
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert03011keyintro.txt;ru;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert03012keyintro.txt;ru;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert03013keyintro.txt;ru;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert03012key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert03012key2.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert03012key2az.txt;0;0;0;0;0;0;0;40;75;175;125;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert03012key2dv.txt;0;0;0;0;0;0;0;40;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert03021word2.txt;0;0;0;0;0;0;0;40;75;175;125;2
+ end exercise
+
+ begin exercise
+   type=Ergonomics
+   duration=3
+    EVENT=HTMLMESSAGE;3;msg_eng_uk7qwert_1_4_1.htm;Good Ergonomics;0;left;0;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_4_2.htm;Chair and Desk;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_4_3.htm;Display and Keyboard;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_4_4.htm;Good Posture;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_4_5.htm;Healthy Practices;0;left;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert03031key2.txt;0;0;0;0;0;0;0;40;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert03041paragraph2.txt;0;0;0;0;0;0;0;40;75;175;125;4
+ end exercise
+
+ begin exercise
+   type=Tip: Typing games
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_1_5_1.htm;TypingMaster Games;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert03051text2.txt;0;0;0;0;0;0;0;40;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys T and O
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=to
+ begin exercise
+   type=New keys: T O
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert04011keyintro8555.txt;to;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert04012keyintro.txt;to;PRESS;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert04013keyintro.txt;to;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert04012key28449.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert04012key28449.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert04012key28449.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert04012key28449dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert04021word23455.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert04031sentence25312.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Tip: Progress reports
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_4_5_1.htm;Long-term statistics;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert04041paragraph21934.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert04051text230.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Capital letters and period
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys_QWERTY=ASDFJKLEIRUTO
+ new keys_AZERTY=QASDFJKLEIRUTO
+ new keys_QWERTZ=ASDFJKLEIRUTO
+ new keys_DVORAK=ASDFJKLEIRUTOHN
+ begin exercise
+   type=New keys: Shift
+   duration=3
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_5_1_1.htm;Using the Shift keys;0;left;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert05011keyintro.txt;FJ;PRESS;left
+    EVENT=KEYINTRO;0;file:uk7qwert05013keyintro.txt;FJ;SHOW;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert05012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert05012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert05012key2az.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert05012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert05021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ new keys=.
+ begin exercise
+   type=New key: Period
+   duration=1
+    EVENT=KEYINTRO;0;file:uk7qwert05032keyintro.txt;newkeys;0;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert05041keyintro.txt;%2E;PRESS;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert05033keyintro.txt;%2E;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;1;file:uk7qwert05042key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;1;file:uk7qwert05042key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;1;file:uk7qwert05042key2az.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;1;file:uk7qwert05042key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert05031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Tip: Typing rhythm
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_6_5_1.htm;Finding rhythm;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert05041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert05051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys C and comma
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=cC,
+ begin exercise
+   type=New keys: C ,
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert06011message.txt;c%2C;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert06011keyintro.txt;c%2C;PRESS;left
+    EVENT=KEYINTRO;0;file:uk7qwert06013keyintro.txt;c%2C;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert06012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert06012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert06012key2az.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert06012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert06021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert06031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert06041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Tip: Check your posture
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_5_5_1.htm;Check posture;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert06051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys G H and apostrophe
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=gGhH
+ begin exercise
+   type=New keys: G H
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert07011keyintro.txt;gh;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert07013keyintro.txt;gh;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert07013keyintro7461.txt;gh;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert07012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert07012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert07012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert07012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ new keys='"
+ begin exercise
+   type=New keys: ' "
+   duration=1
+    EVENT_ALT=HTMLMESSAGE;0;msg_eng_uk7qwert_7_2_1.htm;Quotation marks;0;left;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert07021keyintro.txt;%27%22;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert07023keyintro.txt;%27%22;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert07024keyintro.txt;%27%22;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;1;file:uk7qwert07023key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;1;file:uk7qwert07023key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;1;file:uk7qwert07023key2az.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;1;file:uk7qwert07023key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ new keys=H
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert07021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert07031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Tip: Take breaks
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_7_5_1.htm;Take a break;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert07041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert07051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys V N and question mark
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=nNvV
+ begin exercise
+   type=New keys: V N
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert08011keyintro.txt;vn;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert08012keyintro.txt;vn;PRESS;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert08013keyintro.txt;vn;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert08012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert08012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert08012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert08012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ new keys=?
+ begin exercise
+   type=New key: ?
+   duration=1
+    EVENT=KEYINTRO;0;file:uk7qwert08021keyintro8416.txt;%3F;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert08021keyintro.txt;%3F;PRESS;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert08023keyintro.txt;%3F;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;1;file:uk7qwert08022key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;1;file:uk7qwert08022key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;1;file:uk7qwert08022key2az.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;1;file:uk7qwert08022key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert08021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert08031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert08041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert08051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys W and M
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=wWmM
+ begin exercise
+   type=New keys: W M
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert09011keyintro9423.txt;wm;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert09011keyintro.txt;wm;PRESS;left;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert09013keyintro.txt;wm;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert09012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert09012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert09012key2az.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert09012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert09021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert09031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert09041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert09051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys Q and P
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=qQpP
+ begin exercise
+   type=New keys: Q P
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert010011keyintro7697.txt;qp;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert010011keyintro.txt;qp;PRESS;left;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert010013keyintro.txt;qp;SHOW;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert010012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert010012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert010012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert010012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert010021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert010031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert010041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert010051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys B and Y
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=bByY
+ begin exercise
+   type=New keys: B Y
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert011011test.txt;by;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert011011key2.txt;by;PRESS;left;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert011013keyintro.txt;by;SHOW;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert011012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert011012key2qz.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert011012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert011012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert011021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert011031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert011041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert011051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys Z and X
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=zZxX
+ begin exercise
+   type=New keys: Z X
+   duration=3
+    EVENT=KEYINTRO;0;file:uk7qwert012011keyintro.txt;zx;SHOW;left;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert012012keyintro.txt;zx;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7qwert012013keyintro.txt;zx;SHOW;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;3;file:uk7qwert012012key2.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_QWERTZ=KEY2;3;file:uk7qwert012012key2qz.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_AZERTY=KEY2;3;file:uk7qwert012012key2az.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+    EVENT_DVORAK=KEY2;3;file:uk7qwert012012key2dv.txt;0;0;0;0;0;0;3.1;3.1;3.1;3.1;3.1;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:uk7qwert012021word2.txt;0;0;0;0;0;0;3.2;3.2;3.2;3.2;3.2;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7qwert012031sentence2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:uk7qwert012041paragraph2.txt;0;0;0;0;0;0;3.4;3.4;3.4;3.4;3.4;4
+ end exercise
+
+ begin exercise
+   type=Tip: Typing tests
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_12_5_1.htm;Take a Typing Test;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7qwert012051text2.txt;0;0;0;0;0;0;3.5;3.5;3.5;3.5;3.5;5
+ end exercise
+
+ begin exercise
+   type=Completed - what next?
+   duration=2
+    EVENT=HTMLMESSAGE;2;msg_eng_uk7qwert_12_1_1.htm;Taking Your Skills into Action;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_12_1_2.htm;Using the Satellite;0;left;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_uk7qwert_12_1_3.htm;Additional Courses;0;left;0;0;0;0;0;0;0;0
+ end exercise
+
+end chapter

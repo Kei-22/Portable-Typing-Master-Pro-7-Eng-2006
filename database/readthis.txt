@@ -1,0 +1,20 @@
+
+TypingMaster User Database Directory
+--------------------------------------
+
+All users should have the Change Access privileges (Read+Write+Change permissions) 
+to this folder and (at least for the corresponding) user files located inside it. 
+
+For more information about setting permissions, please see the Network Manual or FAQ.
+
+
+
+TypingMaster 7.0 Database Directory
+--------------------------------------
+
+TypingMaster 7.0 stores by default the user data in personal folders:
+
+c:\documents and settings\<username>\application data\TypingMaster7\
+
+This is adjustable with a setting AppData=1 in "tmnpath.ini" file.
+

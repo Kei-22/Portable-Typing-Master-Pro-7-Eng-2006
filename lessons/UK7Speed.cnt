@@ -1,0 +1,272 @@
+$description=Speed Building Course
+$longdesc=This course is designed to increase your typing speed and confidence. You will focus on the keys for each finger, type longer texts and train with some of the most common English words.
+$version=7.0
+$language=eng
+$chapters=6
+$durationlist=15,20,25
+$copyright=TypingMaster inc 2005, all rights reserved.
+'Created by TMEditor v2.0 @ 28.2.2006 11:36
+
+newkeysloops=0
+wordloop=0
+wordmaxloop=0
+goalinfo=jotain
+durationsystem=static
+defaultduration=0
+lessondurations=15,20,25
+accuracygoals=90,94,98
+eventdurationmargin=0
+dynamicdurationmargin=2
+
+contents name=Speed Building Course
+alternatekeyboards=1
+keyboard=us.kbd
+wizardname=UK7QWERT
+simplewizard=1
+last free=0
+
+begin chapter
+ chapter name=1;Focus on the home row
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=SEMICOLON
+ new keys=asdfjkl
+ new keys=ru
+ new keys=to
+ new keys=ASDFJKLEIRUTO
+ new keys=cC,
+ new keys=gGhH
+ new keys='"
+ new keys=nNvV
+ new keys=?
+ new keys=wWmM
+ new keys=qQpP
+ new keys=bByY
+ new keys=zZxX
+ new keys=.
+ begin exercise
+   type=Speed building course description
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_UK7Speed_1_1_1.htm;Speed Building Course;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Review the home row
+   duration=2
+    EVENT_QWERTY=KEY2;2;file:uk7qwert01031key2.txt;0;0;0;0;0;0;0;40;75;175;125;8
+    EVENT_DVORAK=KEY2;2;file:uk7qwert01042key2.txt;0;0;0;0;0;0;0;40;75;175;125;8
+    EVENT_QWERTZ=KEY2;2;file:uk7qwert01043key2.txt;0;0;0;0;0;0;0;40;75;175;125;8
+    EVENT_AZERTY=KEY2;2;file:uk7qwert01044key2.txt;0;0;0;0;0;0;0;40;75;175;125;8
+ end exercise
+
+ begin exercise
+   type=Fun phrases with A F J
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed01021sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;9
+ end exercise
+
+ begin exercise
+   type=Fun phrases with D K
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed01031sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;9
+ end exercise
+
+ begin exercise
+   type=Fun phrases with S L
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed01041sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;9
+ end exercise
+
+ begin exercise
+   type=Text drill, all letters
+   duration=4
+    EVENT=TEXT2;4;file:uk7speed01051paragraph2.txt;0;0;0;0;0;0;0;40;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Focus on the index finger keys
+ picture=none
+ durationpercent=101
+ extradescr=
+ begin exercise
+   type=Review index finger keys
+   duration=2
+    EVENT=KEY2;2;file:uk7speed02011key2.txt;0;0;0;0;0;0;0;40;75;175;125;8
+ end exercise
+
+ begin exercise
+   type=Fun phrases with R T Y U
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed02031sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;10
+ end exercise
+
+ begin exercise
+   type=Fun phrases with G H
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed02041sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;10
+ end exercise
+
+ begin exercise
+   type=Fun phrases with V B N M
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed02051sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;10
+ end exercise
+
+ begin exercise
+   type=Text drill, all letters
+   duration=4
+    EVENT=TEXT2;4;file:uk7speed02021key2.txt;0;0;0;0;0;0;0;40;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Focus on the middle finger keys
+ picture=none
+ durationpercent=101
+ extradescr=
+ begin exercise
+   type=Review E C I ,
+   duration=2
+    EVENT=KEY2;2;file:uk7speed03011keyintro.txt;0;0;0;0;0;0;0;40;75;175;125;8
+ end exercise
+
+ begin exercise
+   type=Fun phrases with E and I
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed03021sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;11
+ end exercise
+
+ begin exercise
+   type=Fun phrases with C
+   duration=2
+    EVENT=SENTENCE2;2;file:uk7speed03031sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;11
+ end exercise
+
+ begin exercise
+   type=Paragraph drill, all letters
+   duration=4
+    EVENT=PARAGRAPH2;4;file:uk7speed03041paragraph2.txt;0;0;0;0;0;0;0;40;75;175;125;7
+ end exercise
+
+ begin exercise
+   type=Text drill, all letters
+   duration=4
+    EVENT=TEXT2;4;file:uk7speed03051paragraph2.txt;0;0;0;0;0;0;0;40;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Focus on the ring finger keys
+ picture=none
+ durationpercent=101
+ extradescr=
+ begin exercise
+   type=Review W X O .
+   duration=2
+    EVENT=KEY2;2;file:uk7speed04011key2.txt;0;0;0;0;0;0;0;40;75;175;125;8
+ end exercise
+
+ begin exercise
+   type=Fun phrases with W and O
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed04021sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;12
+ end exercise
+
+ begin exercise
+   type=Fun phrases with X
+   duration=2
+    EVENT=SENTENCE2;2;file:uk7speed04031sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;12
+ end exercise
+
+ begin exercise
+   type=Paragraph drill, all letters
+   duration=4
+    EVENT=PARAGRAPH2;4;file:uk7speed04041paragraph2.txt;0;0;0;0;0;0;0;40;75;175;125;7
+ end exercise
+
+ begin exercise
+   type=Text drill, all letters
+   duration=4
+    EVENT=TEXT2;4;file:uk7speed04051text2.txt;0;0;0;0;0;0;0;40;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Focus on the little finger keys
+ picture=none
+ durationpercent=101
+ extradescr=
+ begin exercise
+   type=Review Q Z P
+   duration=2
+    EVENT=KEY2;2;file:uk7speed05011key2.txt;0;0;0;0;0;0;0;40;75;175;125;8
+ end exercise
+
+ begin exercise
+   type=Fun phrases with Q and P
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed05021sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;13
+ end exercise
+
+ begin exercise
+   type=Fun phrases with Z
+   duration=2
+    EVENT=SENTENCE2;2;file:uk7speed05031sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;13
+ end exercise
+
+ begin exercise
+   type=Paragraph drill, all letters
+   duration=4
+    EVENT=PARAGRAPH2;4;file:uk7speed05041paragraph2.txt;0;0;0;0;0;0;0;40;75;175;125;7
+ end exercise
+
+ begin exercise
+   type=Text drill, all letters
+   duration=4
+    EVENT=TEXT2;4;file:uk7speed05051text2.txt;0;0;0;0;0;0;0;40;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Common words
+ picture=none
+ durationpercent=101
+ extradescr=
+ begin exercise
+   type=1-50 most common words
+   duration=3
+    EVENT=WORD2;3;file:uk7speed06011word2.txt;0;0;0;0;0;0;0;40;75;175;125;14
+ end exercise
+
+ begin exercise
+   type=More common words
+   duration=3
+    EVENT=WORD2;3;file:uk7speed06051word2.txt;0;0;0;0;0;0;0;40;75;175;125;14
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:uk7speed06021sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;14
+ end exercise
+
+ begin exercise
+   type=Often misspelled words
+   duration=3
+    EVENT=WORD2;3;file:uk7speed06021word2.txt;0;0;0;0;0;0;0;40;75;175;125;15
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:uk7speed06031sentence2.txt;0;0;0;0;0;0;0;40;75;175;125;5
+ end exercise
+
+end chapter

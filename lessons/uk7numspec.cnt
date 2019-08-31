@@ -1,0 +1,221 @@
+$description=Special Marks Course
+$longdesc=Extend your skills to cover special marks, including Internet characters, mathematical symbols and brackets. Note: Be sure to take the Numbers Course first.
+$version=7.0
+$language=eng
+$chapters=4
+$durationlist=15,20,25
+$copyright=TypingMaster inc 2005, all rights reserved.
+'Created by TMEditor v2.0 @ 28.2.2006 17:08
+
+newkeysloops=0
+wordloop=0
+wordmaxloop=0
+goalinfo=
+durationsystem=static
+defaultduration=0
+lessondurations=15,20,25
+accuracygoals=90,94,98
+eventdurationmargin=0
+dynamicdurationmargin=2
+
+contents name=Special Marks Course
+alternatekeyboards=1
+keyboard=us.kbd
+nosemicolonreplacement=1
+wizardname=UK7QWERT
+simplewizard=1
+last free=0
+
+begin chapter
+ chapter name=1;Keys %; : / ?  
+ picture=chapter.jpg
+ durationpercent=101
+ extradescr=
+ new keys=ei
+ new keys=ru
+ new keys=gh
+ new keys=c,
+ new keys=ASDFJKLEIRUGHC
+ new keys=mvMV
+ new keys=ytYT
+ new keys=nbNB
+ new keys=owOW
+ new keys=pqzPQZ
+ new keys=x.X
+ new keys=1234567890
+ new keys=asdfjkl
+ new keys=SEMICOLON
+ new keys=:/?
+
+ begin exercise
+   type=New keys: %; :
+   duration=2
+    EVENT=KEY2;2;file:specials01011key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=2
+    EVENT=WORD2;2;file:specials01021word2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ begin exercise
+   type=New keys: ? /
+   duration=2
+    EVENT=KEY2;2;file:specials01031key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=WORD2;3;file:specials01041word2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:specials01051sentence2.txt;0;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:specials01061text2.txt;0;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys ' " + - %=
+ picture=chapter.jpg
+ durationpercent=101
+ extradescr=
+ new keys='"
+ begin exercise
+   type=New keys: ' "
+   duration=2
+    EVENT=KEY2;2;file:specials02011key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=2
+    EVENT=WORD2;2;file:specials02021word2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:specials02031sentence2.txt;0;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ new keys=+-%=
+ begin exercise
+   type=New keys: + - %=
+   duration=2
+    EVENT=KEY2;2;file:specials02041key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=SENTENCE2;3;file:specials02051word2.txt;0;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:specials02061text2.txt;0;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys ( ) [ ] @ $ && %
+ picture=chapter.jpg
+ durationpercent=101
+ extradescr=
+ new keys=()[]
+ begin exercise
+   type=New keys: ( )  [ ]
+   duration=2
+    EVENT=KEY2;2;file:specials03011key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=2
+    EVENT=WORD2;2;file:specials03021word2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ new keys=@$%&&
+ begin exercise
+   type=New keys: @ $ & % 
+   duration=3
+    EVENT=KEY2;3;file:specials03031key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=2
+    EVENT=SENTENCE2;2;file:specials03041word2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:specials03051sentence2.txt;0;0;0;0;0;0;25;75;175;125;3;3
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:specials03061text2.txt;0;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Keys { } \ ! # ^ *
+ picture=chapter.jpg
+ durationpercent=101
+ extradescr=
+ new keys={}\!
+ begin exercise
+   type=New keys: { } \ !
+   duration=2
+    EVENT=KEY2;2;file:specials04011key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=2
+    EVENT=WORD2;2;file:specials04021word2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ new keys=#^*
+ begin exercise
+   type=New keys: # ^ *
+   duration=2
+    EVENT=KEY2;2;file:specials04031key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=SENTENCE2;3;file:specials04041sentence2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:specials04051sentence2.txt;0;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=3
+    EVENT=TEXT2;3;file:specials04061text2.txt;0;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+end chapter

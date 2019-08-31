@@ -1,0 +1,109 @@
+$version=6
+
+' DYNAMIC KEYBOARD LAYOUT - EUROPEAN 102 key
+
+' defaultsize for buttons having minus as width and height
+dynamiclayout;1
+MaterialBased;dynamic
+HomeRow;DYNAMIC
+DefaultSize;32;34
+FontSize;18;14;14
+
+' parameters for Key; finger;x;y;width;height; style; keycaption; keycaption.. max 10 items)
+'
+' x and y can be 0 which means previous one, or +n which adds n pixels to previous value
+'
+' width and heigth can be 0 previous one, or minus and defaultsize is used
+'
+' style can contain following keys - normal value is empty
+'   n= nipple
+'   i= invisible
+'   d= dark
+
+'1. Rivi
+
+vKey;1;1;1;-;-;-;§;½;$29
+vKey;1;+1;0;-;-;-;1;!;$02
+vKey;2;+1;0;-;-;-;2;";$03
+vKey;3;+1;0;-;-;-;3;#;$04
+' note: following uses ALT255 hidden key as empty separator, not space bar! be careful..
+vKey;4;+1;0;-;-;-;4; ;$05; ;$;$29
+vKey;4;+1;0;-;-;-;5; ;$06
+vKey;5;+1;0;-;-;-;6;&;$07
+vKey;5;+1;0;-;-;-;7;/;$08
+vKey;6;+1;0;-;-;-;8;(;$09
+vKey;7;+1;0;-;-;-;9;);$0a
+vKey;8;+1;0;-;-;-;0;=;$0b
+vKey;8;+1;0;-;-;-;+;?;$0c
+vKey;8;+1;0;-;-;-;´;`;$0d
+BackSpaceKey;8;+1;0;66;0;DAS;
+
+'2. Rivi
+TabKey;1;1;+1;48;-;DS;;
+xKey;1;+1;0;-;-;-;q;Q;$10
+vKey;2;+1;0;-;-;-;w;W;$11
+vKey;3;+1;0;-;-;-;e;E;$12
+vKey;4;+1;0;-;-;-;r;R;$13
+vKey;4;+1;0;-;-;-;t;T;$14
+vKey;5;+1;0;-;-;-;y;Y;$15
+vKey;5;+1;0;-;-;-;u;U;$16
+vKey;6;+1;0;-;-;-;i;I;$17
+vKey;7;+1;0;-;-;-;o;O;$18
+vKey;8;+1;0;-;-;-;p;P;$19
+vKey;8;+1;0;-;-;-;å;Å;$1a
+vKey;8;+1;0;-;-;-;¨;^;$1b;EMPTY;~
+EnterKey;8;+10;0;40;70;DAS;
+'Key;8;+1;0;50;0;-;\;|
+
+'3. Rivi
+CapsLockKey;1;1;72;57;-;SD;Caps;
+vKey;1;+1;0;-;-;-;a;A;$1e
+vKey;2;+1;0;-;-;-;s;S;$1f
+vKey;3;+1;0;-;-;-;d;D;$20
+vKey;4;+1;0;-;-;-;f;F;$21
+vKey;4;+1;0;-;-;-;g;G;$22
+vKey;5;+1;0;-;-;-;h;H;$23
+vKey;5;+1;0;-;-;-;j;J;$24
+vKey;6;+1;0;-;-;-;k;K;$25
+vKey;7;+1;0;-;-;-;l;L;$26
+vKey;8;+1;0;-;-;-;ö;Ö;$27
+vKey;8;+1;0;-;-;-;ä;Ä;$28
+vKey;8;+1;0;-;-;-;';*;$2b
+
+
+'4. Rivi
+ShiftControlKey;1;1;+1;48;-;DAS;1;Shift
+vKey;1;+1;0;-;-;-;<;>;$56
+vKey;1;+1;0;-;-;-;z;Z;$2c
+vKey;2;+1;0;-;-;-;x;X;$2d
+vKey;3;+1;0;-;-;-;c;C;$2e
+vKey;4;+1;0;-;-;-;v;V;$2f
+vKey;4;+1;0;-;-;-;b;B;$30
+vKey;5;+1;0;-;-;-;n;N;$31
+vKey;5;+1;0;-;-;-;m;M;$32
+vKey;6;+1;0;-;-;-;,; ;$33
+vKey;7;+1;0;-;-;-;.;:;$34
+vKey;8;+1;0;-;-;-;-;_;$35
+ShiftControlKey;8;+1;0;82;-;DAS;1;Shift
+
+'5. Rivi
+ControlKey;1;1;+1;48;-;DS;2;Ctrl
+ControlKey;9;+36;0;48;-;SD;3;Alt
+SpaceKey;9;+1;0;229;-;AS;
+ControlKey;9;+1;0;48;-;DS;4;Alt Gr
+ControlKey;8;+36;0;48;-;DS;2;Ctrl
+
+' parameters for Control;x;y;width;height;style; index; caption
+'
+'
+' x and y can be 0 which means previous one, or +n which adds n pixels to previous value
+'
+' width and heigth can be 0 previous one, or minus and defaultsize is used
+'
+' style can contain following keys - normal value is empty
+'   n= nipple
+'   i= invisible
+'   d= dark
+'
+' index is the pointer to Keycaptions of keys, allows e.g. SHIFT functionality
+

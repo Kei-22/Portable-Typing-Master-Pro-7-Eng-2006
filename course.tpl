@@ -1,0 +1,12 @@
+[w]
+Setting6=
+Setting7=
+Setting8=
+Setting9=
+Setting10=
+datatype6=
+datatype7=
+datatype8=
+datatype9=
+datatype10=
+description10=

@@ -1,0 +1,1632 @@
+/////////////////////////////////////////////////////////////
+// TypingMaster Pro GUI Localization
+//
+// language.eng file for TypingMaster Pro 6.21 and higher
+// revision version 1.2 US English spell checked
+// date: 12/27/2002 TU
+////////////////////////////////////////////////////////////
+//
+// Miscellaneous instructions for translators:
+// *Do not translate these comment rows starting with //
+//
+// *Spaces in the beginning and end of rows are marked with 
+//  notation \+ for better visibility.
+//
+// *Hotkeys for menu items are marked with & 
+//  e.g. "202=&WPM (words/min)" 
+//  When user presses 'W' in the program this item is automatically selected
+//  If a row contains a hotkey character, also insert a similar hotkey character in your translation
+//  Double check that the hotkey characters for one screen/menu are unique.
+//
+// *the '&'-character is marked as &&
+//
+/////////////////////////////////////////////////////////////
+
+// Do not edit the IDs 0..10
+0=language.eng
+1=TypingMaster
+2=TypingMaster Pro
+11=UK
+12=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+13=abcdefghijklmnopqrstuvwxyz
+14=ABCDEFGHIJKLMNOPQRSTUVWXYZ
+15=SuMoTuWeThFrSa
+
+/// these are for games
+221=abcdefghijklmnopqrstuvwxyz
+222=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+223=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
+
+///// Do not translate the following one(s)
+///// ********************
+90=qwertyuiopasdfghjklzxcvbnm
+///// ********************
+
+/////////////////////////////////////////////////////////////
+// General, widely used string gathered here for ease of translation
+/////////////////////////////////////////////////////////////
+24=User
+439=User Name
+462=User:\+
+469=User:\+
+471=User:\+
+118=Accuracy
+584=Accuracy
+622=Accuracy
+116=Speed
+131=Speed
+121=Speed unit is
+201=Speed Unit
+571=Speed Unit
+629=Speed Unit
+367=Gross Speed (
+587=Gross Speed
+623=Gross Speed
+368=Net Speed (
+586=Net Speed
+621=Net Speed
+
+/////////////////////////////////////////////////////////////
+// Texts for navigation and dialogue buttons
+/////////////////////////////////////////////////////////////
+721=&Enter
+734=&Enter
+722=&Cancel
+733=&Cancel
+602=&Cancel
+88=&Cancel
+1174=&Cancel
+603=&Next
+87=&Yes
+1173=&OK
+413=&Begin
+
+/////////////////////////////////////////////////////////////
+//Program menu
+//These hotkeys apply when the menu is visible
+//The hotkeys you define here, cannot be used when the menu is visible
+/////////////////////////////////////////////////////////////
+643=Menu
+554=&Lessons
+555=&Review
+556=&Typing Test
+557=&Games
+558=&Satellite
+559=St&atistics
+560=S&ettings
+561=&Information
+
+/////////////////////////////////////////////////////////////
+//Titles for different sections of the program
+/////////////////////////////////////////////////////////////
+562=Review
+563=Games
+564=Typing Test
+565=Statistics
+566=Satellite
+567=Satellite
+568=Settings
+569=Information
+
+/////////////////////////////////////////////////////////////
+//Info screen
+/////////////////////////////////////////////////////////////
+16=R
+17=Visitor
+18=www.TypingMaster.com
+19=General
+20=Version
+21=Build
+22=License ID
+23=Check for updates
+44=lic.
+45=http://www.TypingMaster.com
+301=Copyright 1992-2006 TypingMaster, Inc. All rights reserved.
+302=Limited trial version
+303=More Information
+304=Only the Satellite is registered.
+305=TypingMaster:\+
+551=Introduction to TypingMaster
+552=How to order
+553=Educational and business customers
+713=Technical support
+714=Internet Links
+570=http://www.TypingMaster.com/index.asp?go=support
+
+/////////////////////////////////////////////////////////////
+//Course and lesson screens
+/////////////////////////////////////////////////////////////
+395=Continue course
+145=Course Completed
+396=Lesson\+
+124=Lesson\+
+125=of\+
+// the following one is used in "lesson n of n", note spaces before and after
+712=\+of\+
+
+397=Welcome to..
+398=Enter the first lesson >
+399=% completed
+710=Next to begin.
+711=Change duration
+715=exercise results
+
+105=Next Lesson
+107=With this limited trial version you can complete the first two lessons of the Touch Typing course. There are also limitations in review, typing test and Satellite sections.\n\nYou can get full access to TypingMaster Pro in minutes - just buy a license online. Click the buttons below for more information.
+108=
+109=Would you like more information on\nthe full version?
+110=Sorry, since you have not passed the required lesson exam,\nyou cannot move forward.
+111=Sorry, since you have not passed all exercises of lesson,\nyou cannot move forward.
+112=Lesson Locked
+114=Exercises
+117=kpm
+119=BackSpace
+120=Efficiency
+122=You have typed for a very short time -\+
+123=your performance scores cannot be calculated.
+127=Exercise completed.
+128=Press Enter to continue.
+129=To continue, the whole exercise should be completed.\nAre you sure you want to cancel this exercise?
+130=Time
+132=Rhythm
+133=Score
+134=Missed
+136=Correct
+137=Anonymous
+138=Go to the Next Lesson
+139=\+min.
+146=Welcome to TypingMaster
+366=No course started
+
+627=welcome
+631=&Change Settings
+632=&More Information
+633=Course Statistics
+634=Course name
+635=Time studied
+636=Completed
+
+638=congratulations
+639=You have now successfully completed this course. To start a new course, press Next.\+
+640=Begin new course
+
+
+/////////////////////////////////////////////////////////////
+//texts that display information on a completed exercise/test
+/////////////////////////////////////////////////////////////
+46=Excellent
+47=Advanced
+48=Intermediate
+49=Beginner
+50=Your speed was\+
+51=very\+
+52=quite\+
+53=good, but the\+
+54=The\+
+55=errors you made decreased your efficiency.\+
+56=Try to focus on accurate typing to improve your net speed.
+57=Your accuracy percentage was\+
+58=very\+
+59=quite\+
+60=good, but you\+
+61=You\+
+62=used BackSpace a lot. Try relying less on BackSpace\+
+63=as it slows you down and interrupts the typing flow.
+64=Your accuracy percentage was\+
+65=very\+
+66=quite\+
+67=good, but you\+
+68=You\+
+69=seem to find one or more keys difficult - you could try Review for additional training.
+70=As the other aspects of your typing are now in\+
+71=very\+
+72=good shape, you\+
+73=You\+
+74=could now try to increase your typing speed to reach\+
+75=higher typing efficiency.
+76=You typed\+
+77=very\+
+78=quite\+
+79=fast! Good job!
+80=Your accuracy was\+
+81=very\+
+82=quite\+
+83=good. Keep up the good work!
+
+
+/////////////////////////////////////////////////////////////
+//Texts for keyboard and hand image when studying new keys
+/////////////////////////////////////////////////////////////
+147=Shift
+148=Alt Gr
+149=Enter
+150=Space
+151=Left Shift
+152=Right Shift
+153=Alt Gr
+154=left little finger
+155=left ring finger
+156=left middle finger
+157=left index finger
+158=right index finger
+159=right middle finger
+160=right ring finger
+161=right little finger
+162=thumb
+163=Tab
+164=Enter
+165=Back
+166=Space
+167=Shift
+
+
+/////////////////////////////////////////////////////////////
+//Settings screen
+/////////////////////////////////////////////////////////////
+182=&Sounds
+183=Sounds on
+184=Sounds off
+185=Lesson Duration
+186=How long should a single lesson take?
+187=&25 minutes
+188=&35 minutes
+189=&45 minutes
+190=No &time limits
+191=&Screen Size
+192=Which font size is used in exercises?
+193=No&rmal
+194=&Large
+195=General Settings
+196=Keyboard Layout
+197=Which keyboard layout do you use?
+198=&Default
+199=O&ther:
+200=Pla&y theme
+202=WPM (words/min)
+203=KPM (keystrokes/min)
+204=Settings
+205=Not available
+206=this copy has expired
+207=Limited trial version
+208=wpm
+209=kpm
+572=N&ormal
+573=This setting will take effect the next time you start TypingMaster.
+574=Ot&her:
+628=Keyboard
+630=Sounds
+
+
+/////////////////////////////////////////////////////////////
+//Inserting licenses
+/////////////////////////////////////////////////////////////
+211=Required information is missing. Please enter both the License ID
+212=and the Product Key to complete the license verification.
+213=Thank you, your license key has been accepted.
+214=You are welcome to evaluate this program! Your program copy is now full-featured.\+
+215=License ID or Product Key is typed incorrectly! Please type these codes carefully again.
+217=Your time-limited license key has expired. Some features are now limited.
+435=The entered Product Key is for previous program versions only, please contact technical support for instructions!
+436=Please see the upgrade prices at www.TypingMaster.com.
+716=\+Current Licenses
+717=Enter &License...
+718=Please enter the License ID and Product Key found on the CD cover or license agreement to add licenses.
+719=License ID:
+720=Product Key:
+723=TypingMaster trial version
+724=This is a limited trial version - take a step further with the full version.
+725=&Order Full Version
+1335=Satellite Lic.
+1336=Unlimited/School District Lic.
+1337=Concurrent Lic.
+1338=Workstation Lic.
+
+
+/////////////////////////////////////////////////////////////
+//Statistics
+/////////////////////////////////////////////////////////////
+244=Statistics
+245= used
+246= % completed
+247=Completed
+248= left
+249=Problematic
+250=Difficult
+251=OK
+252=Study Report
+253=Progress
+254=Student:
+255=Completed:
+256=Time used:
+257=Time left:
+258=Course
+269=\+min\+
+270=\+h\+
+271=? min\+
+272=\+min\+
+273=\+h\+
+369=% completed
+370=Studied\+
+371=, left\+
+372=\+min.
+373=\+sec.
+374=\+min.\+
+
+575=&View
+576=Typing Speed
+577=Accuracy
+578=Courses
+579=Current Course
+580=Studying Time
+581=Usage
+582=Progress Report
+583=&Course
+637=Progress Report
+
+
+/////////////////////////////////////////////////////////////
+//TypingTest
+/////////////////////////////////////////////////////////////
+530=Are you sure you want to permanently delete the Typing Test:\+
+531=Exercise results:
+532=Typing Test Results
+533=Exercise Results
+534=\+minutes per day
+535=\+hours per week
+536=\+working days per year
+537=Learn to touch type! You could increase your net speed up to\+
+538=\+and save time:
+539=You are typing very well - and now you can improve your typing skills even further with TypingMaster Satellite!
+540=\+Click on Info to learn more.
+541=Choose the text file to be added to Typing Tests
+261=To pass this exam your accuracy should have been at least\+
+262=To pass this exam your typing speed should have been at least\+
+263=Your typing rhythm was not good enough to pass this exam. The rhythm should be at least\+
+264=Congratulations, you passed this exam and can now move to the next lesson\+
+265=You didn't complete the required exam in whole.
+266=Steady
+267=Unsteady
+268=Watch out
+375=You have passed this typing test. If you like you can print out a test certificate.
+614=choose test
+615=Add
+616=Delete
+617=&Duration
+618=Test Te&xt
+619=C&ompleted Tests
+620=View && Print Certificate
+624=Time Used
+625=Comment
+626=View && Print Certificate
+
+/////////////////////////////////////////////////////////////
+//Games
+/////////////////////////////////////////////////////////////
+606=Bubbles
+607=Clouds
+608=WordTris
+609=Start
+610=Start
+611=Start
+612=Instructions
+613=Best Players
+1401=Bubbles
+1402=Clouds
+1403=WordTris
+
+91=Press any key
+92=to begin.
+
+93=To burst a bubble, press the letter in it
+94=After missing six bubbles, the game is over
+95=Red and blue bubbles are faster than the green ones and will give a better score
+96=asdfjkl
+140=Type the word in the beam
+141=to begin.
+142=Game Over
+143=Press Space!
+144=Instructions
+
+276=To catch the beam, type the word in it and press Space
+277=When the box is full of missed beams, the game is over
+278=To get the best possible score, look at the word display below the box
+279=To catch a cloud, type the word below it and press Space or Enter
+280=To move between clouds at any time, press Enter/Space (next) or Backspace (previous)
+281=Try not to miss stormy clouds - after six misses the game is over
+282=Sunny clouds will give you a great bonus, so try to catch as many of them as possible
+283=&Quit
+284=Left
+285=Right
+286=Center
+
+/////////////////////////////////////////////////////////////
+//Review
+/////////////////////////////////////////////////////////////
+585=Difficult Keys
+589=Keys to Review
+590=&Difficult keys
+591=St&udied keys
+592=C&hoose keys
+593=Exercise Type
+594=&Keyboard drill
+595=Wo&rd drill
+596=Ga&me
+597=All Difficult Keys
+598=Locked
+599=Trial Version
+600=Close
+601=Lessons
+604=Lesson Duration
+605=courses
+1400=lessons
+
+97=With game or word drill, you can only review the letter keys.\nTo train numbers or special marks, choose Keyboard drill instead.
+98=Your difficult keys will be reviewed instead.
+99=The keys chosen are not yet studied and cannot be reviewed.
+100=Your current difficult keys will be reviewed instead.
+101=Not enough keys to play game.
+103=Problematic
+104=Difficult
+218=Satellite Training
+219=You have not yet studied enough to play a game with the studied keys.
+220=Game will be canceled.
+224=The selected course does not include review wizard material
+229=&Duration
+231=With &Keys
+234=&Vocabulary
+235=V&ocabulary
+236=with studied keys
+237=a-z
+238=a-z, A-Z
+239=a-z, A-Z, 0-9
+306=Training Not Necessary
+307=Training Recommended
+308=Training Highly Recommended
+309=Urgent Need for Training!
+310=No problems found yet
+311=No serious problems have been detected
+312=Some problems have been detected
+313=A number of problems have been detected
+314=A lot of problems have been detected
+315=Training Not Necessary
+316=Training Recommended
+317=Training Highly Recommended
+318=Urgent Need for Training!
+319=No problems found yet
+320=No serious problems have been detected
+321=Some problems have been detected
+322=A number of problems have been detected
+323=A lot of problems have been detected
+324=Bubbles Game
+325=Key(s) were not entered or not found from your keyboard, cannot train!
+326=#7878: Words(s) were not entered or not found, cannot train!
+327=#7879: No crazy sentences available for keys:\+
+328=Finish Review
+329=Customized Practice
+330=The selected keyboard layout\+
+331=\+is not supported by\+
+332=\+course.
+333=Change of keyboard layout or use of the Satellite for training is recommended.
+334=Lesson\+
+335=Finish Course
+336=Next Lesson
+337=In the trial version, this exercise is limited to 30 seconds.
+339=Previous Lesson
+340=Good Luck!
+341=Press any key to begin
+
+/////////////////////////////////////////////////////////////
+//Welcome screen
+/////////////////////////////////////////////////////////////
+342=Welcome to the world of learning professional touch typing with TypingMaster Pro.
+343=In the Basic Course you will learn the basics of touch typing in 6 - 10 hours. Then you can start using this new skill in your everyday life to make it fluent and subconscious.
+344=After learning the basics you can also complete additional courses in order to master special marks, numeric keypad and more.
+345=Click\+
+346=More Information
+347=\+to learn more about TypingMaster Pro or Next to start a course.
+348=You can easily test your current typing skills by choosing\+
+349=Typing Test
+350=\+from the menu on the right.
+351=After learning to touch-type you can do the same test again to compare the results.
+352=WPM (words/min)
+353=KPM (keystrokes/min)
+354=Enabled
+355=Disabled
+356=% of exercises
+357=General Settings
+641=Tip: Test Your Skills
+642=You can easily test your current typing speed by choosing 'Typing Test' from the menu on the right.
+
+/////////////////////////////////////////////////////////////
+// Login screen
+/////////////////////////////////////////////////////////////
+726=All users
+727=Welcome
+728=Welcome New User!
+729=Login anyway?
+730=Enter your &name
+731=Enter your &password
+732=Re-enter p&assword
+735=Choose your &group
+736=Enter your &name
+737=&I am a new user..
+738=Enter your &password
+390=Login to\+
+391=\+by entering your user name and pressing Enter
+392=Welcome to TypingMaster Pro touch typing tutor! Please give a user name below and click Enter.
+393=Loading..
+394=The chosen user cannot logon
+400=Please enter your password
+401=User\+
+402=\+not found, are you a new user?
+403=Password is invalid
+404=Please enter your user name
+405=Passwords are different
+406=Please enter your password
+407=User\+
+408=\+exists already!
+409=\+used
+410=\+left
+411=? min left
+412=Customized Practice
+414=By default, the Satellite now collects data for user called\+
+415=Please enter your user name
+416=Please enter your password
+417=Cannot login as\+
+418=, please try another user name
+419=Password was typed incorrectly!
+420=The entered user name was not found. New users are not allowed.
+421=User\+
+422=\+not found, are you a new user?
+423=Your two passwords do not match, please type passwords again!
+424=User\+
+425=\+exists already!
+426=Please enter your password
+427=User\+
+428=\+not found, are you a new user?
+429=Password is invalid
+430=Please enter your user name
+431=Passwords are different
+432=Please enter your password
+433=User\+
+434=\+exists already!
+
+/////////////////////////////////////////////////////////////
+//Satellite
+//
+//- the subsequent sections contain text displayed in the
+//Satellite section of TypingMaster Pro
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+//first introduction screen
+/////////////////////////////////////////////////////////////
+679=Introduction
+509=\+Satellite - a personal, fully adaptive typing trainer. With Satellite you can focus on your typing problems and get results quickly. In as little as two hours!
+510=Satellite analyzes your typing when you use your word processor, email program or any other Windows application and detects your most difficult keys and words.
+511=\+Based on the data it has collected, Satellite will create fully personalized exercises for your current needs. 
+512=Click\+
+513=More information
+514=\+to learn more about\+
+515=\+Satellite or\+
+699=Step1: Typing Analysis
+700=Step 2: Customized Training
+701=Step 3: Quick Results
+702=Step 4: Continuous support
+703=How It Works
+704=Satellite detects your most difficult keys and words when using any Windows application.\+
+705=Satellite creates practice material based on your difficulties.\+
+706=With the focused prescription drills you will get results quickly.
+707=Satellite can always create fresh material to meet your changing needs.
+708=&More Information
+709=Satellite
+
+/////////////////////////////////////////////////////////////
+//second introduction screen
+/////////////////////////////////////////////////////////////
+519=TypingMaster Satellite is a personal learning assistant that helps you hone your typing skills. It analyzes your typing in other programs and provides training for keys and words that are identified as difficult.
+520=In addition the Satellite gathers statistics on your typing speed progress and reminds you to take short breaks to relax your arms.
+521=The Satellite is most useful after you have learned to touch type and adopt your new typing skills into everyday use. However, you can start using it earlier to see how it works.\n\nThe next step is to launch the Satellite.
+
+516=&Login as
+517=If you are the only user of this Windows user name (
+518=) the first option is recommended.
+522=In high security mode you have to choose the programs
+523=to be monitored manually from the Satellite Menu.
+524=Also, since difficult words are not monitored, the Satellite cannot
+525=work with full efficiency.
+526=Please click Security Info to get more information on security.
+527=There is already a user with your name using TypingMaster
+456=Do you want to close the Satellite now?
+457=Do you want to launch the Satellite now?
+680=The Satellite does not collect difficult words and monitors selected applications only. Recommended if high security is required.
+683=Launch Satellite
+684=Launch Satellite N&ow
+685=Launc&h Satellite Later
+686=Automatic Launch
+687=Show &user list at logon
+688=&Do not log in automatically
+689=Security
+690=Do not collect words (high security)
+691=Information
+692=What Is The Satellite?
+458=Wait...
+459=Closing...
+460=Launching...
+461=Closing TypingMaster Satellite failed
+
+/////////////////////////////////////////////////////////////
+//screen shown after first satellite launch
+/////////////////////////////////////////////////////////////
+693=Satellite Launched!
+681=
+682=
+
+1405=
+694=
+695=
+696=
+697=
+698=
+
+/////////////////////////////////////////////////////////////
+//Main Satellite screen in TypingMaster
+/////////////////////////////////////////////////////////////
+463=Launched
+464=Remo&ve
+465=Not launched
+466=&Launch
+467=Launch: Automatic
+468=Launch: Manual
+470=The Satellite collects statistics exclusively for user called "
+472=Version\+
+473=Difficulties have not yet been detected.
+474=The simple demo course will be used instead.
+475=No words entered, cannot train!
+476=Key(s) not entered or not found from your keyboard, cannot train!
+477=The TypingMaster Satellite module not found
+478=Starting TypingMaster Satellite failed
+671=C&ustomized training
+672=Train &keys
+673=Train &words
+674=Start Training
+675=Problem Index
+676=Settings
+677=Close
+
+/////////////////////////////////////////////////////////////
+//Satellite statistics
+/////////////////////////////////////////////////////////////
+644=Overview
+645=Difficult Keys
+646=Difficult Words
+647=Accuracy & Rhythm
+648=NOTE: Word analysis has been turned off from the Satellite settings
+649=Add new word(s) that you want to train
+650=Hide word(s) that you don't want to train
+651=Correct word containing typing errors
+652=Typing Time (h)
+653=Problem Index (%)
+654=Typed Words
+655=Difficulty Index
+656=Keys
+657=Capital letters
+658=Words
+659=Overall Index
+660=General Info
+661=Last practice
+662=Typing Speed
+663=Typed Words
+664=Typing Time
+665=Difficult Capital Letters
+666=Edit Words
+667=Add
+668=Hide
+669=Edit
+670=train
+
+479=Typing Speed (
+480=Normal
+481=Very high
+482=Today:\+
+483=Highest:\+
+484=Today:\+
+485=Average:\+
+486=Highest:\+
+487=Today\+
+488=, average\+
+489=\+words
+490=\+words
+491=\+words
+492=Today:\+
+493=Average:\+
+494=Highest:\+
+495=Today\+
+496=, average\+
+497=Today:\+
+498=Average:\+
+499=Highest:\+
+500=Today\+
+501=, average\+
+502=Custom training has not been used
+503=\+day ago
+504=\+days ago
+505=Enter one or more difficult words (min. 4 letters)
+506=Make the changes to the difficult word (
+507=Are you sure you want to hide the selected words?
+508=Welcome to\+
+
+/////////////////////////////////////////////////////////////
+//Satellite review
+/////////////////////////////////////////////////////////////
+437=Report
+438=Undefined
+440=Current Course
+441=Studied (h)
+442=Last Used
+443=Usage
+444=Created
+445=No group
+446=Typing Tests
+447=Exercise
+448=Game with Keys
+449=Text with Keys
+451=Capital letters: 
+452=Capital letters: 
+453=Difficult Words
+454=Game with Words
+455=train
+1404=%s times since %s
+1406=For this reason your statistics may be empty or out-of-date.
+1407=High
+1408=No time limits
+1409=10 minutes
+1410=20 minutes
+1411=30 minutes
+1412=Results
+1413=Difficulty indexes before and after training
+1414=Keys
+1415=Capital letters
+1416=Words
+1417=Overall Index
+1418=Before
+1419=Now
+1420=Keys:
+1424=Settings
+1425=Before Review
+1426=After Review
+1427=Review Results
+1428=Take me back..
+1429=(custom)
+
+
+/////////////////////////////////////////////////////////////
+// Satellite Satellite (KBOOST.EXE)
+// -here is the text for the independet Satellite program
+//  which sits in the task bar and monitors typing
+/////////////////////////////////////////////////////////////
+
+//Satellite menu (from the taskbar icon)
+1260=&Logon...
+1261=&Enabled
+1262=\+Satellite is already active!
+1263=You cannot start two instances of the Satellite.
+1264=Satellite
+1265=&Statistics...
+1266=S&how Info on Top
+1267=Se&ttings...
+1268=&Close
+1269=&Training...
+
+//Login
+1270=You must close TypingMaster before you can enable the Satellite
+1271=Do you want to close the Satellite now?
+1272=Closing..
+1273=\+days since
+1274=Version
+1275=Loading..
+1276=\+words,
+1277=Monitor
+1278=Cannot monitor
+1279=The Satellite has gathered enough information for training.
+1280=Exit
+1281=Choose your user name and click OK
+1282=Type your name and click OK to log in as a new user
+1283=Close
+1284=Cancel
+1285=, please try another user name
+1286=Cannot login as\+
+
+//Other general satellite strings
+1329=&Do not show this window in the future
+1330=&Start Training
+1331=&Close
+1332=Difficulty Index
+1333=TypingMaster Satellite has detected some difficulties in your typing. Click here to start training now!
+1334=Training recommended
+1288=Launch Satellite automatically at Windows logon
+1289=&Yes
+1290=&No
+
+/////////////////////////////////////////////////////////////
+//Satellite settings
+/////////////////////////////////////////////////////////////
+1287=TypingMaster Satellite
+1299=Copyright 1992-2006 TypingMaster, Inc. All rights reserved.
+
+//Personal tab
+1300=Personal
+1291=Personal settings
+1292=Take a break
+1293=&Monitor all new applications by default
+1294=&Choose the applications to be monitored manually
+1295=Recommend Training
+1325=Recommend after %d pages if &difficulties are detected
+1296=Security
+1297=Do &not analyze or collect the difficult words
+1298=Select this option to ensure high security.
+
+//Applications tab
+1301=Applications
+1302=Applications to be Monitored
+1303=View &currently detected applications
+1304=View &all detected applications
+1421=No monitored programs available
+1305=Tip: Uncheck applications containing confidential information
+
+//Common Satellite Settings tab
+1306=Common
+1307=Common Satellite Settings
+1326=Applies to the current Windows user name
+1308=Automatic Launch
+1309=Launch Satellite &automatically at Windows logon
+1310=Use automatic launch to ensure that the Satellite monitors your typing all the time when logged in with your Windows user name.
+1311=User Identification
+1312=&Use selected user:
+1313=&Show user list at startup
+1314=Start in &logged off mode
+1315=If there are several users for the current Windows user name, do not select the first option to avoid inaccurate statistics.
+
+//About tab
+1316=About
+1317=Satellite Information
+1318=Satellite Launch:
+1319=Current User:
+1320=&Change User..
+1321=User Statistics
+1322=Usage:
+1422=times
+1423=%s days since %s
+1323=Total keystrokes:
+1324=Analyzed keystrokes:
+1327=Automatic
+1328=Manual
+
+
+/////////////////////////////////////////////////////////////
+// TypingMaster Manager
+// -texts for the manager program
+/////////////////////////////////////////////////////////////
+
+1108=TypingMaster User Manager
+
+542=Message from teacher
+543=Receiver:
+544=Whole group
+545=Complete Report
+546=Please wait, sorting users
+547=Complete Report
+548=User List Report
+549=Latest Exercises Report
+550=Latest Tests Report
+
+1006=Select TM User Files Folder
+1007=The Selected folder\+
+1008=\+does not include TypingMaster files.
+1009=Make sure you did not choose TypingMaster\Database folder. Choose another folder.
+1012=TypingMaster has been installed into too many workstations.
+1013=You have only\+
+1014=\+licenses. Please add licenses or remove workstation installations from Licenses menu.
+1015=TypingMaster License Violation
+1016=Loading Users:\+
+1017=Loading..
+
+1001=Group 
+1027=New Group
+1058=No group
+1031=New User
+1032=New User
+
+
+/////////////////////////////////////////////////////////////
+// Manager menus
+/////////////////////////////////////////////////////////////
+
+// File topmenu
+1146=Common &Settings
+1147=Change &Directory
+1148=&Import Users (CSV)
+1149=&Exit
+
+//About topmenu
+1150=Help
+1029=Copyright 1992-2006 TypingMaster, Inc.
+1030=For latest documentation, visit http://www.TypingMaster.com
+
+/////////////////////////////////////////////////////////////
+//The menu titles
+//These menus are always visible in Manager, so the hotkeys defined here are always reserved
+/////////////////////////////////////////////////////////////
+1151=&About..
+1152=&File
+1153=&Users
+1154=&Groups
+1155=&Typing Tests
+1156=&Licenses
+
+/////////////////////////////////////////////////////////////
+//Users menu
+/////////////////////////////////////////////////////////////
+1157=Users
+1159=C&hoose Group
+1010=All Groups
+
+1158=View && Print Reports
+1204=C&omplete Report..
+1205=Latest Exercises..
+1206=Latest Tests..
+1207=User L&ist..
+
+1160=User Tasks
+1208=&Change Settings..
+1209=Set Grou&p..
+1210=Send &Message..
+1211=Arrange Typing Test..
+
+1161=Edit User(s)
+1212=Re&name User
+1213=&Delete User(s)
+1214=&Add User
+1215=S&elect All
+
+//Headings for user list
+1162=New Users
+1163=User name
+1164=Group
+1165=Current Course
+1166=Done
+1167=Studied (h)
+1168=Last Used
+1169=Usage
+1170=Created
+1258=\+times
+1259=\+[Lock]
+
+//Status indicator at the bottom of the screen
+1018=\+users,\+
+1019=\+selected
+1020=\+users
+
+/////////////////////////////////////////////////////////////
+//Groups menu
+/////////////////////////////////////////////////////////////
+1245=Groups
+1216=View && Print Reports
+1217=C&omplete Report
+1218=Latest Exercises
+1219=Latest Tests
+1220=User L&ist
+
+1221=Group Tasks
+1222=&Change Settings..
+1223=Send &Message..
+1224=A&rrange Typing Test..
+
+1225=Edit Group
+1226=Re&name Group
+1227=&Delete Group
+1228=&Add Group
+
+//Headings for groups list
+1255=Group Name
+1256=Users
+1257=Created
+1011=\+ (Default)
+
+//Functional texts for groups menu
+1021=Are you sure you want to delete group\+
+1022=Group contains\+
+1023=\+users. Delete them?
+1024=Do you want to remove\+
+1025=\+user(s)?
+1026=\+groups
+
+
+/////////////////////////////////////////////////////////////
+//Typing Tests menu 
+/////////////////////////////////////////////////////////////
+1244=Typing Tests
+1229=Test Tasks
+1230=&Change Settings..
+1231=&Edit Text..
+
+1232=Edit Test
+1234=&Delete Test
+1233=&Add Test
+
+//Headings for typing test list
+1252=Test Name
+1253=Time (min.)
+1254=Copyright
+
+1047=Are you sure you want to permanently delete the Typing Test:
+1049=#1551 The typing test file is already in use (locked)
+
+//Status indicator at the bottom of the screen
+1051=\+tests
+
+
+/////////////////////////////////////////////////////////////
+//Licenses menu 
+/////////////////////////////////////////////////////////////
+1243=Licenses
+1235=Edit Licenses
+1236=&View/Add Licenses
+1237=&Remove Workstation(s)
+
+1238=License Info
+1239=License Type
+1240=Total
+1241=Used
+1242=Free
+
+//Headings for licenses list
+1246=Workstation name
+1247=Installed
+1248=Used
+1249=Last used
+1250=Platform
+1251=Installed by
+
+//Functional texts for Licenses menu
+1033=Are you sure you want to delete workstation\+
+1034=\+workstations
+1035=Workstation Licenses
+1036=\+Licenses
+1037=\+Licenses
+1038=\+Licenses
+1039=License violation: remove %d workstation(s)
+1040=License violation!
+1041=All licenses are currently in use.
+1042=No free licenses
+1043=\+free licenses
+1044=Concurrent Licenses
+1045=\+Licenses
+1046=\+concurrent licenses
+
+
+/////////////////////////////////////////////////////////////
+//Send message window
+/////////////////////////////////////////////////////////////
+1052=Send message to\+
+1053=Send message to %d users
+1054=Send message to\+
+1171=Send Message
+1172=&Type Your Message
+
+/////////////////////////////////////////////////////////////
+//Arrange Typing Test window
+/////////////////////////////////////////////////////////////
+1055=Arrange test for\+
+1056=Arrange test for\+
+1057=Arrange test for %d users
+1059=\+min.
+1060=Not selected
+1175=Arrange Test
+1176=1. Activate Test
+1177=Test &Disabled
+1178=Test &Activated
+1179=2. Choose &Test
+1180=3. Choose Duration
+1181=&Free Duration
+1182=Choose D&uration......................
+1183=min.
+1184=4. Enter &Message
+
+/////////////////////////////////////////////////////////////
+//Set Group window
+/////////////////////////////////////////////////////////////
+1185=Set group for selected user(s).
+1186=&Existing Group
+1187=&New Group
+1188=Set Group
+
+/////////////////////////////////////////////////////////////
+//View Report window
+/////////////////////////////////////////////////////////////
+1189=View Report
+1190=Prev. Page
+1191=Next Page
+1192=&Print
+1193=&Close
+1002=Page width
+1003=Full Page
+1004=Page 
+1005=No printers installed - cannot print.
+
+/////////////////////////////////////////////////////////////
+// Change Settings window
+//
+// Here are the user interface texts for settings windows
+// The actual settings for these windows can be found in
+// .tpl files in the TypingMaster program directory
+// (e.g. common settings = policy.tpl)
+// Be sure to also translate these files
+/////////////////////////////////////////////////////////////
+1194=Change Settings
+1195=Setting
+1196=Value
+1197=Lock
+1198=Description
+1199=Enabled
+1200=Group 
+1201=User 
+1202=Common Settings
+1203=Typing Test Settings
+
+/////////////////////////////////////////////////////////////
+// Manager Change directory window
+/////////////////////////////////////////////////////////////
+1394=TypingMaster &Directory
+1395=&Browse..
+
+//Import users window title
+1050=Choose TypingMaster 98/99 folder to import users (and groups)
+
+
+/////////////////////////////////////////////////////////////
+// User Reports
+// Space for words is quite limited. Please check that your translations fit without problem.
+// If you cannot get some word to fit, please contact technical staff.
+/////////////////////////////////////////////////////////////
+1061=Certificate
+1062=TypingMaster
+1063=TypingMaster Test Certificate,\+
+1064=has today successfully completed a computer based
+1065=TypingMaster typing test with the following results:
+1066=Test Duration:
+1067=Gross Speed:
+1068=Accuracy:
+1069=Net Speed:
+1070=Signature:
+1071=Copyright 1992-2006 by TypingMaster, Inc. All rights reserved.
+1072=More information at http://www.TypingMaster.com
+1073=User Report
+1074=TypingMaster
+1076=TypingMaster User Report,\+
+1077=Page\+
+1078=Group
+1079=Current Course
+1080=Studying Time
+1081=Last Access
+1082=Created
+1083=Usage
+1084=No group
+1085=Typing Tests
+1086=Exercise
+1087=Duration
+1088=Gross Spd
+1089=Net Spd
+1090=Other
+1091=TypingMaster User Report,\+
+1092=Page\+
+1093=Group Report
+1094=TypingMaster
+1095=TypingMaster Group Report,\+
+1096=Page\+
+1097=User name
+1098=Group
+1099=Current course
+1100=Last Used
+1101=User name
+1102=Group
+1103=Current course
+1104=Completed
+1105=Last Access
+1106=No course started
+1107=unknown
+1109=Report
+1110=Initializing Report
+1111=Creating Report
+1112=User Name
+1113=Current Course
+1114=Done
+1115=Studied (h)
+1116=Last Used
+1117=Course:
+1118=Current Course
+1119=Studying Time
+1120=Last Used
+1121=Usage
+1122=Created
+1123=Typing Tests
+1124=n/a
+1125=Completed
+1126=% in
+1127=Exercise
+1128=Type
+1129=Text
+1130=Duration
+1131=Gross Spd
+1132=Accuracy
+1133=Net Spd
+1134=Date
+1135=Test
+1136=Text
+1137=Game
+1138=Other
+1139=Tip
+1140=No course started
+1141=\+on\+
+1142=\+using\+
+1143=Page\+
+1144=Group
+
+//Complete & Test Reports: more info on typing tests
+1380=Date:
+1381=Gross speed:
+1382=Gross strokes:
+1383=Duration:
+1384=Accuracy:
+1385=Error hits:
+1386=Done:
+1387=Net speed:
+1388=Net strokes:
+// misc:
+1390=min.
+1392=Test name:
+1393=errors
+
+
+/////////////////////////////////////////////////////////////
+//TypingMaster Netsetup Strings
+/////////////////////////////////////////////////////////////
+1339=TypingMaster Netsetup
+1340=License Owner:
+1341=Total Licenses.
+1342=Free Licenses
+1343=Installation Progress
+1344=Copying File:
+1345=Destination:
+1346=Target:
+1347=Installed by:
+1348=Setup Failed!
+1349=Setup Completed!
+1350=Creating Start menu shortcut
+1351=Creating
+1352=(Warning: You are not Administrator)
+1353=(Workstation Administrator)
+1354=This workstation does not have a name!
+1355=Out of Workstation licenses. Installation aborted.
+1356=Please use TypingMaster Manager to remove installed Workstations
+1357=(Upgrading)
+1358=Trial version (10 demo licenses)
+1359=Error:
+1360=not found from server. Installation Aborted.
+1361=Netsetup was not able to create directory to workstation. Installation Aborted.
+1362=not found from server/NETSETUP.INI invalid. Installation Aborted.
+1363=from server or cannot write to hard disk. Installation Aborted.
+1364=Cannot copy
+1365=User name
+
+/////////////////////////////////////////////////////////////
+// Misc strings:
+/////////////////////////////////////////////////////////////
+1366=Satellite Info
+1367=Free
+1368=minutes
+1369=Typing Test
+1370=Your teacher has arranged a typing test for you.
+1371=Duration:
+1372=Message from teacher:
+1373=(Trial Licenses)
+1374=(Trial)
+1375=To use Manager, you must have full access to the TypingMaster folder, or another Manager is already running.
+1376=Entered user name is too similar to existing name
+1377=Entered user name is invalid
+1378=Satellite cannot be executed from the network drive
+1379=Satellite cannot operate since the network connection is down.
+1145=already exists!
+
+
+/////////////////////////////////////////////////////////////
+//Error messages
+/////////////////////////////////////////////////////////////
+126=Time out while opening for exclusive write mode\+
+
+168=This program cannot fit the screen, since your display
+169=area is only 640x480 or smaller. Do you want to
+170=view the instructions?
+171=Like many multimedia programs TypingMaster needs at least 800x600 display area.\+
+172=Follow these instructions to change the Display Area setting in Windows.
+173=1. Click Start menu in the task bar
+174=2. Choose Settings..Control Panel
+175=3. Double click the Display icon
+176=4. Click the Settings tab
+177=5. Set Display Area at least 800x600
+178=6. Press the Test button. If picture is satisfactory press the OK button
+
+259=The network is busy because of other users,\+
+260=do you want to try again?
+274=The network is currently busy because of other users,\+
+275=do you want to try again?
+358=#7216 Network directory not found.
+359=Please reinstall program and/or verify network connections.
+360=TypingMaster Not Properly Installed
+361=#7217 Required Installation file is missing or network error.\+
+362=Cannot open\+
+363=POLICY.DYN file.
+364=Please contact your Administrator or install program again!
+376=This workstation does not have a name!
+377=TypingMaster has not been installed for use on this workstation.
+378=Please ask your administrator to install TypingMaster with NETSETUP.
+379=Note: Additional software licenses might be needed.
+380=TypingMaster Not Installed
+381=TypingMaster is already running on this machine.
+382=#7921: ALL CONCURRENT LICENSES ARE CURRENTLY IN USE.\+
+383=Your corporation has\+
+384=\+concurrent licenses for this application.
+385=Maximum amount of the simultaneous users are already using TypingMaster.
+386=Contact your administrator for additional licenses.
+387=#7922: LICENSE VIOLATION ERROR.\+
+388=You have only a single license for this program. Simultaneous users are not allowed. Contact your retailer for additional licenses.
+389=#7923: LICENSE VIOLATION ERROR.
+1389=Your display uses only 256 colors or less.\nTo work properly, TypingMaster needs more\nthan 256 colors (i.e. high color mode).\n\nYou can turn on the high color mode from\nDisplay Settings in Control Panel.
+1391=Study information cannot be saved since the network connection is down.
+528=#1550 The user database file is already in use (locked)
+1028=#1550 The user database file is already in use (locked)
+
+/////////////////////////////////////////////////////////////
+//Miscellaneous user interface strings
+/////////////////////////////////////////////////////////////
+84=Loading, please wait...
+85=Enter your name:
+89=http://www.TypingMaster.com
+1396=No time limits
+1397=25 minutes
+1398=35 minutes
+1399=45 minutes
+1430=Added by
+1431=Added by Administrator
+
+// latest changes in ver 6.21
+1432=Pop the bubbles clockwise by pressing the corresponding keys.
+1433=The game is over when all bubbles are popped.
+1434=Start
+
+
+// latest changes in ver 6.30
+1435=&Language
+
+1436=Expor&t CSV Data
+1437=&Erase Game Scores
+1438=&Rebuild User Index
+1439=Are you sure you want to clean the high scores for games?
+1440=This workstation has aged version 6.2x that needs to be updated manually
+1441=This workstation is always using the latest version via a shortcut
+1442=Shortcut
+1443=The missing keys
+1444=The selected course was not designed for your current Keyboard layout. It is highly recommended to switch the layout, otherwise some of the exercises may not work.
+1445=Switch to US International Layout
+1446=U&pgrade Workstation(s)
+1447=&Refresh All
+1448=No workstations are selected.\nPlease check at least one checkbox next to workstation name
+1449=Maintenance Tasks
+
+
+// TypingMaster 7.00 ChangeS:
+
+
+/////////////////////////////////////////////
+//Dynamic Comment system (1480 - 1599) 
+/////////////////////////////////////////////
+
+//Main title (1480 - 1489)
+1480=Exercise Completed
+1481=Accuracy Goal Almost Reached
+1482=Accuracy Goal Not Reached
+1483=Exercise Interrupted
+
+1599=No tips
+
+//Speed, accuracy & duration comments (1540 - 1549)
+1540=Goal
+1541=Slow
+//1542=Fast enough, sufficient, satisfactory, adequate, all right
+1542=OK
+1543=Good
+1544=Very good
+1545=Excellent
+1546=saved
+
+//Goal tips (1550 - 1579)
+1550=You will reach the accuracy goal if you just drop your speed a little.
+1551=Good accuracy is more important than speed! You should slow down to reach the accuracy goal.
+1552=Your accuracy is good. You could now try to type a little faster.
+1553=Keep up the good work! If you do not let your accuracy drop and keep typing fluently, the optimized duration mode will save you a lot of time.
+1554=Pay a little more attention to accuracy and you will reach the goal level. 
+1555=If an exercise feels difficult, you can always redo it to strengthen your skills.
+
+//Difficult keys tips (1490 - 1499)
+1490=You seem to have problems with keys "%s" learned earlier. This may distract your learning and we suggest you review them.
+1491=Key "%s" learned earlier seems problematic and may distract your learning - a quick review will help.
+1492=Keys "%s" seem to be problematic - you could either redo an earlier drill or complete a review exercise.
+1493=Key "%s" seems problematic - pay more attention to it in the next exercise or do a review now if you like.
+1494=Keys "%s" appear difficult - keep an eye on them and review them if you continue having problems.
+1495=You seem to have some difficulties with "%s" - pay attention to it and review if it the difficulty reappears.
+1499=Start review
+
+//Goal level tips (1580 - 1598)
+1580=You keep exceeding the accuracy goal and also type very fast - you could very well raise your goal level in the next drill!
+1581=You keep exceeding the accuracy goal - if you want more of a challenge you could raise the goal level in the next drill.
+1582=If the current accuracy goal feels too challenging, consider lowering the goal level in the next drill.
+1583=You have chosen a quite demanding accuracy goal - remember that you have the option to lower it in the next drill.
+1584=If you don't want to drop your speed for better accuracy, you can also choose to lower the accuracy goal in the next drill.
+1585=The current goal for accuracy seems quite challenging - you can lower the goal level in the next drill if you like.
+1588=Adjust goals
+
+//Goal Explanations (1500 - 1539)
+//1.1
+1500=Your accuracy was well below the goal level and you typed a little slowly.
+//1.2
+1501=Your typing speed was steady but your accuracy did not reach the goal level.
+//1.3
+1502=Focus. Your typing speed was good but you did not reach the goal for accuracy.
+//1.4
+1503=Concentrate. Your typing speed was very good but your accuracy was well below the goal level.
+//1.5
+1504=Watch out! Your typing speed was excellent but you did not reach the accuracy goal.
+//2.1
+1505=Your accuracy didn't quite reach the goal level and you typed a little slowly.
+//2.2
+1506=Almost there! Your typing speed was OK but you didn't quite reach the accuracy goal.
+//2.3
+1507=Try just a little bit more! Your typing speed was good but your accuracy stayed below the goal level.
+//2.4
+1508=Pay attention! Your typing speed was very good but your accuracy didn't quite reach the goal level.
+//2.5
+1509=Watch out! Your typing speed was excellent but you didn't quite reach the goal for accuracy.
+//3.1
+1510=You reached the accuracy goal but typed a little slowly. 
+//3.2
+1511=You reached the accuracy goal and your typing speed was good enough. Keep going!
+//3.3
+1512=Good job! You reached the accuracy goal and your typing speed was good. Keep up the good work!
+//3.4
+1513=Well done! You reached the goal for accuracy and your typing speed was very good. 
+//3.5
+1514=You reached the accuracy goal and your typing speed was excellent. Great!
+//4.1
+1515=You exceeded the accuracy goal but typed a bit slowly.
+//4.2
+1516=Great! You exceeded the accuracy goal and your typing speed was OK. Keep going!
+//4.3
+1517=Well done! You exceeded the accuracy goal and your typing speed was good. Keep up the good work! 
+//4.4
+1518=Good job! You exceeded the accuracy goal and your typing speed was also very good. Excellent!
+//4.5
+1519=Congratulations, your accuracy and typing speed were both excellent. Great typing!
+
+//Interrupted + goal reached
+1520=Your accuracy was at the goal level but the exercise was not fully completed.
+//Interrupted + goal not reached
+1521=The exercise was not fully completed and you didn't reach the accuracy goal.
+//Interrupted early
+1522=The exercise was interrupted early. Results are based on incomplete material and may not be accurate.
+
+//END: Dynamic Comment system -----------------------
+
+1450=View && Print Results
+1451=Typing Test completed
+1452=TEST RESULTS
+1453=TYPING TEST
+1455=TEST TEXT
+1456=\+of total\+
+1457=Typing Test Details
+1458=Typing Test Certificate
+
+1459=Notice: Only one message can be stored at time
+1460=&Hide/Show Test
+1461=&Print Text
+
+// Satellite issues
+
+1462=Recommend taking a break after
+1463=You have been working for %s hours now. It is time to take a break!\n
+1464=Cup your hands gently over closed eyes and hold for 30 seconds or longer to relax your eyes.
+1465=Extend your arms in front of you and gently flex both wrists by turning the tops of your hands towards your body. Hold for 5 seconds, relax and repeat.
+1466=Extend arms to the sides and glench both fists for 5 seconds. Then spread fingers as far apart as you can and hold for 5 seconds. Repeat a a couple of times.
+1467=Stand up straight and with your right hand gently press your right ear towards the right shoulder. Hold for 5 seconds and repeat with the left side.
+1468=Remember to blink often to keep your eyes lubricated as dry eyes can cause discomfort and blurred vision. When working on a computer, we tend to blink much less often than normal. 
+1469=Give your muscles a good stretch. Stand up and lift your arms straight up clasping hands. Hold the stretch for 5 seconds, and relax. Repeat a few times.
+1470=Give your eyes a rest. Stare at an object at about 20 feet/6 meters away for 20 seconds. Do this every now and then to relax your eyes.
+1471=Extend arms and gently flex left wrist by pressing the palm of your hand towards the wrist with your right hand. Hold for 5 seconds and repeat with right hand.
+1472=Stand up straight and lift shoulders towards your ears. Hold for 3 seconds. Relax and repeat. Follow with quick shoulder shrugs for 10 seconds to improve circulation.
+1473=Reminder
+
+// Manager
+1474=Settings have been saved.
+1475=Settings have been restored.
+1606=You cannot disable the default course
+
+// Tutor changes
+1476=Choose Password
+1477=Your administrator asks you to choose the password to be used in this software.
+
+1478=TypingMaster User Manual
+1479=Make Full &Backup
+
+// GOAL levels
+1600=No Goals
+1601=Easy
+1602=Intermediate
+1603=Advanced
+1604=Expert
+1605=Beginner
+
+
+1607=Objective
+1608=Accuracy Goal
+1609=Duration
+1610=%s minutes (based on progress)
+1611=Press Space to start.
+
+/// Objective list, max 40
+1620=Learn and memorize the new key positions and develop correct finger-key reaches.
+1621=Integrate new keys with keys already learned and add flow to your typing.
+1622=Consolidation exercise to further develop muscle memory and strengthen technique.
+1623=Reinforcement practice to develop smooth and accurate keystrokes and even rhythm.
+1624=Type independently without any visual cues and prove your skills.
+1625=Lesson exam for skills assessment.
+
+//the following are for speed building course
+1626=Extra practice to increase typing speed while maintaining high accuracy.
+1627=Review the keys already learned.
+1628=Strengthen technique with special focus on select home row keys.
+1629=Strengthen technique with special focus on index finger keys.
+1630=Strengthen technique with special focus on middle finger keys.
+1631=Strengthen technique with special focus on ring finger keys.
+1632=Strengthen technique with special focus on little finger keys.
+1633=Learn to fluently type some of the most common words in English.
+1634=Reinforce skills by typing commonly misspelled words.
+1660=xx
+
+//Result screen strings
+1661=Results Cannot Be Calculated
+1662=Test Passed
+1663=You completed this typing test.
+1664=Test Not Passed
+1665=For more information please look at the details.
+1666=Exercise Partially Completed
+1667=Exercise Fully Completed
+1668=See your results below.
+1669=Difficult Keys in this Exercise
+1670=No difficult keys
+1671=Learning Tips
+
+1672=PASSED
+1673=NOT PASSED
+
+//Some new strings for Satellite login window
+1674=I am a new user..
+1675=Launch Satellite
+1676=View existing users
+1677=Don't launch
+1678=If you want to launch the Satellite, pick your user name and click "Launch" button, otherwise choose "Don't Launch".
+1679=Don't show this window in the future.
+
+1680=Limited Trial Version
+1681=Your Difficult Keys
+
+1682=Test Interrupted
+1683=The test was interrupted before the time was up.

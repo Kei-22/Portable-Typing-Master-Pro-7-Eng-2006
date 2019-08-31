@@ -1,0 +1,173 @@
+$description=Numeric Keypad Course
+$longdesc=Learn to use the 10-key pad with touch typing technique.
+$version=7.0
+$language=eng
+$chapters=3
+$durationlist=15,20,25
+$copyright=TypingMaster inc 2005, all rights reserved.
+'Created by TMEditor v2.0 @ 3.3.2006 9:41
+
+newkeysloops=0
+wordloop=0
+wordmaxloop=0
+goalinfo=jotain
+durationsystem=static
+defaultduration=0
+lessondurations=15,20,25
+accuracygoals=90,94,98
+eventdurationmargin=0
+dynamicdurationmargin=2
+
+contents name=Numeric Keypad Course
+keyboard=numpad.kbd
+wizardname=
+simplewizard=1
+last free=0
+
+begin chapter
+ chapter name=1;Numbers
+ picture=ch1.pic
+ durationpercent=101
+ extradescr=
+ new keys=456789
+ begin exercise
+   type=The numeric keypad
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_numpad_1_1_1.htm;The Numeric Keypad;0;left;0;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_numpad_1_1_2.htm;Finger Positions;0;left;0;0;0;0;0;0;0;0;0
+    EVENT=HTMLMESSAGE;0;msg_eng_numpad_1_1_3.htm;Num Lock;0;left;0;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Numbers 4-9
+   duration=2
+    EVENT=KEY2;2;file:num0101.exc;ENTER;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Sequence drill
+   duration=2
+    EVENT=SENTENCE2;2;File:num0102.exc;ENTER;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ new keys=1230
+ begin exercise
+   type=Numbers 1-3 and 0
+   duration=2
+    EVENT=KEY2;2;file:num0103a.exc;ENTER;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Sequence drill
+   duration=2
+    EVENT=SENTENCE2;2;File:num0104.exc;ENTER;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Row drill
+   duration=3
+    EVENT=SENTENCE2;3;File:num0105.exc;true;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+ begin exercise
+   type=Bubbles game
+   duration=1
+    EVENT=BUBBLES;1;456789
+ end exercise
+
+ begin exercise
+   type=Training drill
+   duration=3
+    EVENT=TEXT2;3;File:num0107.exc;true;0;0;0;0;0;0;25;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Special Marks
+ picture=ch1.pic
+ durationpercent=101
+ extradescr=
+ new keys=+.
+ begin exercise
+   type=New keys: + .
+   duration=2
+    EVENT=KEY2;2;file:num0201.exc;ENTER;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Sequence drill
+   duration=2
+    EVENT=SENTENCE2;2;File:num0202.exc;ENTER;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ new keys=/*-
+ begin exercise
+   type=New keys: / * -
+   duration=2
+    EVENT=KEY2;2;file:num0203.exc;ENTER;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Sequence drill
+   duration=2
+    EVENT=SENTENCE2;2;File:num0204.exc;ENTER;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Row drill
+   duration=3
+    EVENT=SENTENCE2;3;File:num0205.exc;true;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+ begin exercise
+   type=Bubbles game
+   duration=1
+    EVENT=BUBBLES;1;asdfjklei
+ end exercise
+
+ begin exercise
+   type=Training drill
+   duration=3
+    EVENT=TEXT2;3;File:num0207.exc;true;0;0;0;0;0;0;25;75;175;125;5
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Review
+ picture=ch1.pic
+ durationpercent=101
+ extradescr=
+ begin exercise
+   type=Numbers and .
+   duration=3
+    EVENT=SENTENCE2;3;file:num0301.exc;true;0;0;0;0;0;0;25;75;175;125;8
+ end exercise
+
+ new keys=+
+ begin exercise
+   type=Bubbles game
+   duration=2
+    EVENT=BUBBLES;2;none
+ end exercise
+
+ begin exercise
+   type=Special marks
+   duration=4
+    EVENT=SENTENCE2;4;file:num0302.exc;true;0;0;0;0;0;0;25;75;175;125;8
+ end exercise
+
+ begin exercise
+   type=Clouds game
+   duration=2
+    EVENT=CLOUDS;2;numbers.vcb.eng;true
+ end exercise
+
+ begin exercise
+   type=Training drill
+   duration=4
+    EVENT=TEXT2;4;File:num0304.exc;true;0;0;0;0;0;0;25;75;175;125;5
+ end exercise
+
+end chapter

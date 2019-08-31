@@ -1,0 +1,9 @@
+Beware of viruses and hoaxes. A virus can't be transmitted through the body of an email. You need to have an executable program that you download from somewhere else to introduce a virus into your computer. A virus could be carried in any attached files you receive with your email. Make sure you use a current antivirus scanning software before running any attached files. And never open a file if you don't know the sender. 
+
+Also be wary of any messages you receive that warn you of an email virus and tell you to immediately forward the message to everyone you know. These are usually hoaxes. 
+
+To protect yourself from viruses, first invest in some SOLID virus protection software. The two virus protection giants are Norton Antivirus, also known as Symantec, and McAfee VirusScan made by Network Associates. 
+
+Second, create a rescue disk set. The virus protection software will include one. 
+
+Third, don't keep chain letters and hoaxes going. Do not forward them to anyone and everyone you know. A responsible Netizen will be mindful of others and delete them immediately. 

@@ -1,0 +1,136 @@
+$description=Numbers Course
+$longdesc=This two lesson course teaches how to type numbers on the number row.
+$version=7.0
+$language=eng
+$chapters=2
+$durationlist=15,20,25
+$copyright=TypingMaster inc 2005, all rights reserved.
+'Created by TMEditor v2.0 @ 28.2.2006 11:36
+
+newkeysloops=0
+wordloop=0
+wordmaxloop=0
+goalinfo=
+durationsystem=static
+defaultduration=0
+lessondurations=15,20,25
+accuracygoals=90,94,98
+eventdurationmargin=0
+dynamicdurationmargin=2
+
+contents name=Numbers Course
+alternatekeyboards=1
+keyboard=us.kbd
+wizardname=UK7QWERT
+simplewizard=1
+last free=0
+
+begin chapter
+ chapter name=1;Numbers 3, 4, 5, 6, 7 and 8
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=4567
+ begin exercise
+   type=The number row
+   duration=0
+    EVENT=HTMLMESSAGE;0;msg_eng_UK7NumRow_1_1_1.htm;The Number Row;0;left;0;0;0;0;0;0;0;0
+ end exercise
+
+ begin exercise
+   type=Numbers 4 5 6 7
+   duration=4
+    EVENT=KEYINTRO;0;file:UK7NumRow0011keyintro.txt;4567;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:UK7NumRow0012keyintro.txt;45;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:UK7NumRow0013keyintro.txt;67;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7numrow01015keyintro.txt;4567;SHOW;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;4;file:UK7NumRow0012key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_QWERTZ=KEY2;4;file:UK7NumRow0012key2qz.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_AZERTY=KEY2;4;file:UK7NumRow0012key2.txt;0;0;0;0;0;0;0;25;75;175;125;11
+    EVENT_DVORAK=KEY2;4;file:UK7NumRow0012key2dv.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ new keys=68
+ begin exercise
+   type=Word drill
+   duration=3
+    EVENT=SENTENCE2;3;file:UK7NumRow0021word2.txt;0;0;0;0;0;0;0;25;75;175;125;2
+ end exercise
+
+ new keys=38
+ begin exercise
+   type=Numbers 3 and 8
+   duration=2
+    EVENT=KEYINTRO;0;file:UK7NumRow0021keyintro.txt;38;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:UK7NumRow1022keyintro.txt;38;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7numrow01033keyintro.txt;38;SHOW;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;2;file:UK7NumRow1023key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_QWERTZ=KEY2;2;file:UK7NumRow1023key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_AZERTY=KEY2;2;file:UK7NumRow1023key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_DVORAK=KEY2;2;file:UK7NumRow1023key2dv.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:UK7NumRow1041sentence2.txt;0;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=3
+    EVENT=PARAGRAPH2;3;file:UK7NumRow1051paragraph2.txt;0;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+end chapter
+
+begin chapter
+ chapter name=1;Numbers 1, 2, 9 and 0
+ picture=none
+ durationpercent=101
+ extradescr=
+ new keys=29
+ begin exercise
+   type=Numbers 2 and 9
+   duration=2
+    EVENT=KEYINTRO;0;file:UK7NumRow2011keyintro5106.txt;29;SHOW;0;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:UK7NumRow2011keyintro.txt;29;PRESS;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7numrow02013keyintro.txt;29;SHOW;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;2;file:UK7NumRow2012key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_QWERTZ=KEY2;2;file:UK7NumRow2012key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_AZERTY=KEY2;2;file:UK7NumRow2012key2az.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_DVORAK=KEY2;2;file:UK7NumRow2012key2dv.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ new keys=10
+ begin exercise
+   type=Numbers 1 and 0
+   duration=2
+    EVENT=KEYINTRO;0;file:UK7NumRow2021keyintro.txt;10;SHOW;0;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:UK7NumRow2022keyintro.txt;10;PRESS;0;0;0;0;0;0;0;0
+    EVENT=KEYINTRO;0;file:uk7numrow02023keyintro.txt;newkeys;0;0;0;0;0;0;0;0;0;0
+    EVENT_QWERTY=KEY2;2;file:UK7NumRow2023key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_QWERTZ=KEY2;2;file:UK7NumRow2023key2.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_AZERTY=KEY2;2;file:UK7NumRow2023key2az.txt;0;0;0;0;0;0;0;25;75;175;125;1
+    EVENT_DVORAK=KEY2;2;file:UK7NumRow2023key2dv.txt;0;0;0;0;0;0;0;25;75;175;125;1
+ end exercise
+
+ begin exercise
+   type=Sentence drill
+   duration=3
+    EVENT=SENTENCE2;3;file:UK7NumRow2031sentence2.txt;0;0;0;0;0;0;0;25;75;175;125;3
+ end exercise
+
+ begin exercise
+   type=Paragraph drill
+   duration=4
+    EVENT=PARAGRAPH2;4;file:UK7NumRow2041paragraph2.txt;0;0;0;0;0;0;0;25;75;175;125;4
+ end exercise
+
+ begin exercise
+   type=Text drill
+   duration=4
+    EVENT=TEXT2;4;file:UK7NumRow2051text2.txt;0;0;0;0;0;0;0;25;75;175;125;5
+ end exercise
+
+end chapter

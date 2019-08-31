@@ -1,0 +1,50 @@
+$version=6
+
+' International EDITION.  both comma and dot can be used.
+
+' defaultsize for buttons having minus as width and height
+MaterialBased;numpad
+CommaDot;1
+DefaultSize;35;34
+FontSize;18;11;11
+homerow;456+
+
+' parameters for Key; finger;x;y;width;height; style; keycaption; keycaption.. max 10 items)
+'
+' x and y can be 0 which means previous one, or +n which adds n pixels to previous value
+'
+' width and heigth can be 0 previous one, or minus and defaultsize is used
+'
+' style can contain following keys - normal value is empty
+'   n= nipple
+'   i= invisible
+'   d= dark
+
+'1. Rivi
+Key;5;300;1;-;-;SA;Num
+Key;6;+1;0;-;-;-;/
+Key;7;+1;0;-;-;-;*
+Key;7;+1;0;-;-;-;-
+
+'2. Rivi
+Key;5;300;+1;-;-;-;7
+Key;6;+1;0;-;-;-;8
+Key;7;+1;0;-;-;-;9
+Key;8;+1;0;-;69;-;+
+
+'3. Rivi
+Key;5;300;-34;-;-;-;4
+Key;6;+1;0;-;-;-;5
+Key;7;+1;0;-;-;-;6
+
+'4. Rivi
+Key;5;300;+1;-;-;-;1
+Key;6;+1;0;-;-;-;2
+Key;7;+1;0;-;-;-;3
+EnterKey;8;+1;0;-;69;SA;
+
+'5. Rivi
+Key;9;300;-34;71;-;-;0
+Key;7;+1;0;-;-;-;.|,
+
+SpaceKey;10;30;0;229;-;AS;

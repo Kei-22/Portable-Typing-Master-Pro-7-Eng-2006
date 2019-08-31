@@ -1,0 +1,57 @@
+2(x + 4) = 2x + 8 
+
+"free@enterprise.com" reads "Free at enterprise dot com". 
+
+Nesting: (12[5x + y][x + 3]) 
+
+Summer special: 200 shower units @ $42.50 
+
+They paid me three hundred dollars ($300.00). 
+
+Typing symbols such as $, & and @, is tiresome. 
+
+The @ symbol is sometimes called the ape-tail, but really it is short hand for the word "at". 
+
+Use [ ]--not brackets--when you insert a word or phrase into a quotation. 
+
+The ampersand (&) is not correctly used in place of the word "and" in a sentence. 
+
+Ellipsis ( ... ) or ( . . . ) is used to show that something has been omitted. 
+
+Brackets can also indicate multiplication: 2(5) = 10 
+
+The company is called "Brown & Jones, Solicitors". 
+
+In HTML coding, &amp; is used for &. 
+
+The keys [Enter] and [Shift] are used frequently. 
+
+50% of 100 is 50. 25% of 200 is also 50. How much is 10% of 500? 
+
+"Great Expectations" was written by Charles Dickens [1812-1870]. 
+
+If (inp(1) and inp(2)) or (inp (3)), then (pin(4'5'6)). 
+
+If [shift]=(true) then call=tip.exe or call=tap.exe end sub. 
+
+Sales tax is 17.5%. Does this mean that for every $100 you spend, $17.50 is taken for no value added. 
+
+I shall never learn & or @ or as fluently as the letter keys, as hard as I may try. 
+
+Chording is pressing keys simultaneously, such as [Ctrl] + [Alt] + [Del] keys needed to log on to some operating systems. 
+
+Information in parentheses (like this, for example) are often examples. 
+
+[Ctrl] key is the Control key, which was used in the days of teletype systems with the [C] key as a system IRQ. 
+
+(09) 55 555 could be a Finnish telephone number. 
+
+Square brackets are often used to indicate a key; such as [enter], for example. 
+
+Some people claim that Pascal (1623-1662) discovered the triangle of binomial coefficients. 
+
+Chemists use square brackets to indicate concentration, so [acid] means concentration of acid. 
+
+Isaac Newton (1642-1727) is arguably the most important physicist and mathematician in modern history. 
+
+Surds are expressions (such as the square root of 7, or the cube root of 42) which cannot be evaluated exactly. 

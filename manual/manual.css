@@ -1,0 +1,64 @@
+body { 
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 9pt; 
+  color: #000000
+}
+
+table {  font-size: 9pt}
+
+p {
+  margin-top: 0px; margin-bottom: 10px; padding-top: 0px; padding-bottom: 0px
+}
+
+a {
+  color: #000099
+}
+
+h1 {
+  font-size: 15pt; 
+  font-weight: bold;
+; border-color: #000079 black black; padding-top: 5px; margin-top: 50px; margin-bottom: 20px
+; color: #000079; border-style: solid; border-top-width: 2px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+}
+
+h2 {
+  font-size: 13pt; 
+  font-weight: bold;
+; margin-top: 30px; margin-bottom: 6px; padding-bottom: 2px; color: #000079; border: solid; border-width: 0px 0px 1px; border-color: black black #000079
+}
+
+h3 {
+  font-size: 10pt; 
+  font-weight: bold;
+; margin-top: 20px; margin-bottom: 4px
+; border-color: black black #000000; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px
+; color: #000079
+}
+form {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+hr {  margin-top: 0pt; margin-right: 0pt; margin-bottom: 0pt; margin-left: 0pt; padding-top: 0pt; padding-right: 0pt; padding-bottom: 0pt; padding-left: 0pt; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.cnt_small { font-size: 8pt }
+.cnt_bld { font-weight: bold}
+ol {  margin-top: 5px; margin-bottom: 12px; padding-top: 0px; padding-bottom: 0px}
+ol li {  padding-top: 0px; padding-bottom: 6px}
+ul {  margin-bottom: 14px; margin-top: 0px; padding-top: 0px; padding-bottom: 0px}
+ul li {  padding-top: 0px; padding-bottom: 6px}
+.manual_title { font-size: 16pt; font-weight: bold; color: #000000; margin-top: 0px}
+.manual_subtitle { font-size: 13pt; font-weight: bold; color: #000000 ; margin-bottom: 0px}
+.contents_1 { font-weight: bold ; font-size: 10pt}
+.contents_2 { font-weight: normal; text-indent: 15pt}
+.contents_3 { font-weight: normal; text-indent: 30pt}
+.cnt_note { font-weight: normal; font-style: italic; border-color: black black black #666666; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 2px}
+
+.bordertable {
+    border-collapse: collapse; border: #000000; border-style: solid; border-width: 1px
+}
+.bordertable td {
+    border: #000000 solid;
+    text-align: left;
+    valign: middle;
+    padding: 4px;
+; border-width: 1px 0px
+}
+h4 {  font-size: 10pt; font-weight: bold; margin-top: 18px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+.tasktitle {  margin-top: 16px; margin-bottom: 6px; font-weight: bold}
+.cnt_note_title {  font-style: normal; font-weight: bold}

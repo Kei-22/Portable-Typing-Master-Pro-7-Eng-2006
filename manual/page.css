@@ -1,0 +1,90 @@
+body, td, p {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 13px; 
+  color: #202020
+}
+
+p {
+  margin-top: 0px; margin-bottom: 10px; padding-top: 0px; padding-bottom: 0px
+}
+
+a {
+  font-weight: normal;
+  color: #000099;
+}
+
+h1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 18px; 
+  font-weight: bold;
+  color: #000000;
+}
+
+h2 {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 15px; 
+  font-weight: bold;
+  color: #000000;
+}
+
+h3 {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 13px; 
+  font-weight: bold;
+  color: #000000;
+}
+
+.highlight { 
+  font-weight: bold;
+  color: #0818CE
+}
+
+.sublinks {
+  font-size: 11px; 
+  color: #FFFFFF;
+  padding: 0 0 2 0;
+  line-height: 17px
+}
+
+.newslinks {
+  font-size: 11px; 
+  color: #0818CE;
+  font-weight: normal;
+  text-decoration: none
+}
+.kuvateksti {
+  font-size: 9px;
+  font-weight: bold
+}
+
+.emphasis {
+  font-weight: bold
+}
+.pagetitle {  font-size: 16pt; font-weight: bold; color: #FFFFFF}
+.pagesubtitle { font-size: 12pt; font-weight: bold; color: #FFFFFF}
+.categorytitle {  font-size: 11pt; font-weight: bold; color: #000000}
+.smalltext {  font-size: 10px}
+.pagesmall {  font-size: 13px; font-weight: bold; color: #FFFFFF}
+
+.menulink {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.menulink_sub {
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+.topmenulink {
+  font-weight: bold;
+  padding: 2 0 2 0;
+  color: #FFFFFF;
+}
+
+.topmenu_sub {
+  font-weight: bold;
+  font-size: 11px; 
+  padding: 0 0 2 0;
+  color: #FFFFFF;
+}
